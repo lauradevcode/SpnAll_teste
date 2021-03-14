@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="css/style_home.css">
-  <script type="js/Effects.js"></script>
   <title>Spn All</title>
 </head>
 
@@ -15,28 +15,32 @@
 
   <!-- Navbar começa aqui-->
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-
-    <a href="#" class="navbar-brand">
-      <img src="images/logo.svg" height="28" alt="SPN ALL">
-    </a>
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-
-      <div class="navbar-nav">
-        <a href="#" class="nav-item nav-link active">Home</a>
-        <a href="#" class="nav-item nav-link active">Cadastro</a>
-        <a href="#" class="nav-item nav-link active">Produtos</a>
-        <a href="#" class="nav-item nav-link active">Ajuda</a>
-      </div>
-
-      <div class="navbar-nav ml-auto">
-
-        <a href="layoutvendedor.html" class="nav-item nav-link active">Login</a>
-
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #4A00E0;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -45,686 +49,83 @@
 
   <!-- Banner rotativo -->
 
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="img/banner1.jpg" alt="Primeiro Slide">
+        <img src="img/banner2.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/banner2.jpg" alt="Segundo Slide">
+        <img src="img/banner2.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/banner3.jpg" alt="Terceiro Slide">
+        <img src="img/banner2.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Próximo</span>
-    </a>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+  <!-- Inicio do CARD -->
 
-  <!-- Inicio do Container -->
-
-  <div class="marketing">
-
-    <div class="titulos_">Melhores Fornecedores</div>
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-
-      <div class="col-lg-4 imgs2">
-
-        <div class="flexs2">
-
-          <img src="img/note1.webp" class="imgs" alt="">
-
-        </div>
-
-        <p><a class="btn btn-dark bot" href="#" role="button">Loja&raquo;</a></p>
-
-      </div>
-
-      <div class="col-lg-4 imgs2">
-
-        <div class="flexs2">
-
-          <img src="img/note1.webp" class="imgs" alt="">
-
-        </div>
-
-        <p><a class="btn btn-dark bot" href="#" role="button">Loja&raquo;</a></p>
-
-      </div>
-
-      <div class="col-lg-4 imgs2">
-
-        <div class="flexs2">
-
-          <img src="img/note1.webp" class="imgs" alt="">
-
-        </div>
-
-        <p><a class="btn btn-dark bot" href="#" role="button">Loja&raquo;</a></p>
-
-      </div>
-
-      <div class="col-lg-4 imgs2">
-
-        <div class="flexs2">
-
-          <img src="img/note4.png" class="imgs" alt="">
-
-        </div>
-
-        <p><a class="btn btn-dark bot" href="#" role="button">Loja&raquo;</a></p>
-
-      </div>
-
-      <div class="col-lg-4 imgs2">
-
-        <div class="flexs2">
-
-          <img src="img/note4.png" class="imgs" alt="">
-
-        </div>
-
-        <p><a class="btn btn-dark bot" href="#" role="button">Loja&raquo;</a></p>
-
-      </div>
-      <div class="col-lg-4 imgs2">
-
-        <div class="flexs2">
-
-          <img src="img/note4.png" class="imgs" alt="">
-
-        </div>
-
-        <p><a class="btn btn-dark bot" href="#" role="button">Loja&raquo;</a></p>
-
-      </div>
-    </div>
-  </div>
-
-  
-<div class="titulos_">Destaques</div>
-  <div class="marketing">
-    
-    <div class="row text-center">
-
-      <div class="col-lg-4 imgs">
-
-        <div class="flexs" id="flexs2">
-
-
-          <img src="img/note4.png" id="img-column-1">
-        </div>
-        <span class="text_" id="texto_1">
-          <h5 id="text-1"><a href="#">Notebook Lenovo Ultrafino ideapad S145 i7 - 8565U 8GB 1TB GeForce MX 110 Windows 10 15.6" Full HD Dolby Audio Design Leve e Compacto, Prata.</a></h5>
-        </span>
-      </div>
-
-
-      <div class="col-lg-4 imgs">
-        <div class="flexs" id="flexs2">
-          <img src="img/note4.png" id="img-column-2">
-        </div>
-        <span class="text_" id="texto_2">
-          <h5 id="text-2"><a href="#">Notebook Lenovo Ultrafino ideapad S145 i7 - 8565U 8GB 1TB GeForce MX 110 Windows 10 15.6" Full HD Dolby Audio Design Leve e Compacto, Prata.</a></h5>
-        </span>
-
-      </div>
-
-
-      <div class="col-lg-4 imgs">
-        <div class="flexs" id="flexs2">
-          <img src="img/note4.png" id="img-column-3">
-
-        </div>
-
-        <span class="text_" id="texto_3">
-          <h5 id="text-3"><a href="#">Notebook Lenovo Ultrafino ideapad S145 i7 - 8565U 8GB 1TB GeForce MX 110 Windows 10 15.6" Full HD Dolby Audio Design Leve e Compacto, Prata.</a></h5>
-        </span>
-      </div>
-
-
-      <div class="col-lg-4 imgs">
-        <div class="flexs" id="flexs2">
-          <img src="img/note4.png" id="img-column-4">
-        </div>
-        <span class="text_" id="texto_4">
-          <h5 id="text-4"><a href="#">Notebook Lenovo Ultrafino ideapad S145 i7 - 8565U 8GB 1TB GeForce MX 110 Windows 10 15.6" Full HD Dolby Audio Design Leve e Compacto, Prata.</a></h5>
-        </span>
-
-      </div>
-
-
-      <div class="col-lg-4 imgs">
-        <div class="flexs" id="flexs2">
-          <img src="img/note4.png" id="img-column-5">
-        </div>
-        <span class="text_" id="texto_5">
-          <h5 id="text-5"><a href="#">Notebook Lenovo Ultrafino ideapad S145 i7 - 8565U 8GB 1TB GeForce MX 110 Windows 10 15.6" Full HD Dolby Audio Design Leve, Black.</a></h5>
-        </span>
-
-      </div>
-
-      <div class="col-lg-4 imgs">
-        <div class="flexs" id="flexs2">
-          <img src="img/note4.png" id="img-column-6">
-        </div>
-        <span class="text_" id="texto_6">
-          <h5 id="text-6"><a href="#">Notebook Lenovo Ultrafino ideapad S145 i7 - 8565U 8GB 1TB GeForce MX 110 Windows 10 15.6" Full HD Dolby Audio Design Compacto, Black.</a></h5>
-        </span>
-
-      </div>
-
-      <div class="col-lg-4 imgs">
-        <div class="flexs" id="flexs2">
-          <img src="img/note4.png">
-        </div>
-
-        <span class="text_" id="texto_7">
-          <h5 id="text-7"><a href="#">Notebook Lenovo Ultrafino ideapad S145 i7 - 8565U 8GB 1TB GeForce MX 110 Windows 10 15.6" Full HD Dolby Audio e Compacto, Prata.</a></h5>
-        </span>
-      </div>
-
-
-      <div class="col-lg-4 imgs">
-        <div class="flexs" id="flexs2">
-          <img src="img/note4.png" id="img-column-8">
-
-
-        </div>
-        <span class="text_" id="texto_8">
-          <h5 id="text-8"><a href="#"><a href="#">Notebook Lenovo Ultrafino ideapad S145 i7 - 8565U 8GB 1TB GeForce MX 110 Windows 10 15.6" Full HD Dolby Audio Design Leve e Compacto, Prata.</a></a></h5>
-        </span>
-      </div>
-
-    </div>
-  </div>
-
-  <footer>
-    <div class="row">
-      <div class="col-md-6">
-        <p>Copyright ©SPN ALL</p>
-      </div>
-      <div class="col-md-6 text-md-right">
-        <a href="#" class="text-dark">Sobre</a>
-        <span class="text-muted mx-2">|</span>
-        <a href="#" class="text-dark">Parceiros</a>
-      </div>
-    </div>
-  </footer>
-
-
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script>
-
-
-    $(".flexs").hover(
-
-      function () {
-
-        $(this).css({
-          "border": "1px solid",
-
-          "border-radius": "1px",
-          "border-color": "gray"
-
-        });
-
-      }
-      ,
-      function () {
-        $(this).css({
-
-          "border": "0px",
-          "border-color": "none",
-          "box-shadow": "none"
-        });
-
-      }
-
-    );
-
-    $("#texto_1").hover(
-
-      function () {
-
-        $("#flexs-1").css({
-          "border": "1px solid",
-
-          "border-radius": "1px",
-          "border-color": "gray"
-
-        });
-
-      }
-      ,
-      function () {
-        $("#flexs-1").css({
-
-          "border": "0px",
-          "border-color": "none",
-          "box-shadow": "none"
-        });
-
-      }
-
-    );
-
-
-    $("#texto_2").hover(
-
-      function () {
-
-        $("#flexs-2").css({
-          "border": "1px solid",
-
-          "border-radius": "1px",
-          "border-color": "gray"
-
-        });
-
-      }
-      ,
-      function () {
-        $("#flexs-2").css({
-
-          "border": "0px",
-          "border-color": "none",
-          "box-shadow": "none"
-        });
-      }
-
-    );
-
-    $("#texto_3").hover(
-
-      function () {
-
-        $("#flexs-3").css({
-          "border": "1px solid",
-
-          "border-radius": "1px",
-          "border-color": "gray"
-
-        });
-
-      }
-      ,
-      function () {
-        $("#flexs-3").css({
-
-          "border": "0px",
-          "border-color": "none",
-          "box-shadow": "none"
-        });
-      }
-
-    );
-
-    $("#texto_4").hover(
-
-      function () {
-
-        $("#flexs-4").css({
-          "border": "1px solid",
-
-          "border-radius": "1px",
-          "border-color": "gray"
-
-        });
-
-      }
-      ,
-      function () {
-        $("#flexs-4").css({
-
-          "border": "0px",
-          "border-color": "none",
-          "box-shadow": "none"
-        });
-
-      }
-
-    );
-
-    $("#texto_5").hover(
-
-      function () {
-
-        $("#flexs-5").css({
-          "border": "1px solid",
-
-          "border-radius": "1px",
-          "border-color": "gray"
-
-        });
-
-      }
-      ,
-      function () {
-        $("#flexs-5").css({
-
-          "border": "0px",
-          "border-color": "none",
-          "box-shadow": "none"
-        });
-
-      }
-
-    );
-
-    $("#texto_6").hover(
-
-      function () {
-
-        $("#flexs-6").css({
-          "border": "1px solid",
-
-          "border-radius": "1px",
-          "border-color": "gray"
-
-        });
-
-      }
-      ,
-      function () {
-        $("#flexs-6").css({
-
-          "border": "0px",
-          "border-color": "none",
-          "box-shadow": "none"
-        });
-
-      }
-
-    );
-
-    $("#texto_7").hover(
-
-      function () {
-
-        $("#flexs-7").css({
-          "border": "1px solid",
-
-          "border-radius": "1px",
-          "border-color": "gray"
-
-        });
-
-      }
-      ,
-      function () {
-        $("#flexs-7").css({
-
-          "border": "0px",
-          "border-color": "none",
-          "box-shadow": "none"
-        });
-
-      }
-
-    );
-
-    $("#texto_8").hover(
-
-      function () {
-
-        $("#flexs-8").css({
-          "border": "1px solid",
-
-          "border-radius": "1px",
-          "border-color": "gray"
-
-        });
-
-      }
-      ,
-      function () {
-        $("#flexs-8").css({
-
-          "border": "0px",
-          "border-color": "none",
-          "box-shadow": "none"
-        });
-      }
-
-    );
-
-    $('#texto-1').hide();
-    $('#text-1').hide();
-
-    $('#img-column-1').on('mouseenter', function () {
-      $('#texto-1').show();
-      $('#text-1').show();
-      $('#texto-2').hide();
-      $('#text-2').hide();
-      $('#texto-3').hide();
-      $('#text-3').hide();
-      $('#texto-4').hide();
-      $('#text-4').hide();
-      $('#texto-5').hide();
-      $('#text-5').hide();
-      $('#texto-6').hide();
-      $('#text-6').hide();
-      $('#texto-7').hide();
-      $('#text-7').hide();
-      $('#texto-8').hide();
-      $('#text-8').hide();
-    });
-
-    $('#img-column-1').on('mouseout', function () {
-      $('#texto-1').hide();
+  <div class="card1 container">
+    <div class="cardsO row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
       
-    });
+      <div class="cards0  col">
+        <div class="card " style="width: 17rem;">
+          <img src="img/note1.webp" class="card-img-top" alt="...">
+          <div class="card-body text-dark bg-light mb-3">
+            <h4 class="card-title">Notebook Dell</h4>
+            <p class="preco card-text" style="text-align: center;">de R$ 1.599,00 por</p>
+            <p class="preco1 card-text" style="text-align: center;"> R$ 1.151,10 à vista</p>
+            <a href="#" class="btn btn-primary">COMPRAR</a>
+          </div>
+        </div>
+      </div>
 
-    $('#texto-2').hide();
-    $('#text-2').hide();
+      <div class="cards0  col">
+        <div class="card " style="width: 17rem;">
+          <img src="img/note1.webp" class="card-img-top" alt="...">
+          <div class="card-body text-dark bg-light mb-3">
+            <h4 class="card-title">Notebook Dell</h4>
+            <p class="preco card-text" style="text-align: center;">de R$ 1.599,00 por</p>
+            <p class="preco1 card-text" style="text-align: center;"> R$ 1.151,10 à vista</p>
+            <a href="#" class="btn btn-primary">COMPRAR</a>
+          </div>
+        </div>
+      </div>
 
-    $('#img-column-2').on('mouseenter', function () {
-      $('#texto-1').hide();
-      $('#text-1').hide();
-      $('#texto-2').show();
-      $('#text-2').show();
-      $('#texto-3').hide();
-      $('#text-3').hide();
-      $('#texto-4').hide();
-      $('#text-4').hide();
-      $('#texto-5').hide();
-      $('#text-5').hide();
-      $('#texto-6').hide();
-      $('#text-6').hide();
-      $('#texto-7').hide();
-      $('#text-7').hide();
-      $('#texto-8').hide();
-      $('#text-8').hide();
+      <div class="cards0  col">
+        <div class="card " style="width: 17rem;">
+          <img src="img/note1.webp" class="card-img-top" alt="...">
+          <div class="card-body text-dark bg-light mb-3">
+            <h4 class="card-title">Notebook Dell</h4>
+            <p class="preco card-text" style="text-align: center;">de R$ 1.599,00 por</p>
+            <p class="preco1 card-text" style="text-align: center;"> R$ 1.151,10 à vista</p>
+            <a href="#" class="btn btn-primary">COMPRAR</a>
+          </div>
+        </div>
+      </div>
 
-    });
+      <div class="cards0  col">
+        <div class="card " style="width: 17rem;">
+          <img src="img/note1.webp" class="card-img-top" alt="...">
+          <div class="card-body text-dark bg-light mb-3">
+            <h4 class="card-title">Notebook Dell</h4>
+            <p class="preco card-text" style="text-align: center;">de R$ 1.599,00 por</p>
+            <p class="preco1 card-text" style="text-align: center;"> R$ 1.151,10 à vista</p>
+            <a href="#" class="btn btn-primary">COMPRAR</a>
+          </div>
+        </div>
+      </div>
 
-    $('#img-column-2').on('mouseout', function () {
-      $('#texto-2').hide();
 
-    });
 
-    $('#texto-3').hide();
-    $('#text-3').hide();
+    </div>
+  </body>
 
-    $('#img-column-3').on('mouseenter', function () {
-      $('#texto-1').hide();
-      $('#text-1').hide();
-      $('#texto-2').hide();
-      $('#text-2').hide();
-      $('#texto-3').show();
-      $('#text-3').show();
-      $('#texto-4').hide();
-      $('#text-4').hide();
-      $('#texto-5').hide();
-      $('#text-5').hide();
-      $('#texto-6').hide();
-      $('#text-6').hide();
-      $('#texto-7').hide();
-      $('#text-7').hide();
-      $('#texto-8').hide();
-      $('#text-8').hide();
-    });
-
-    $('#img-column-3').on('mouseout', function () {
-      $('#texto-3').hide();
-
-    });
-
-    $('#texto-4').hide();
-    $('#text-4').hide();
-
-    $('#img-column-4').on('mouseenter', function () {
-      $('#texto-1').hide();
-      $('#text-1').hide();
-      $('#texto-2').hide();
-      $('#text-2').hide();
-      $('#texto-3').hide();
-      $('#text-3').hide();
-      $('#texto-4').show();
-      $('#text-4').show();
-      $('#texto-5').hide();
-      $('#text-5').hide();
-      $('#texto-6').hide();
-      $('#text-6').hide();
-      $('#texto-7').hide();
-      $('#text-7').hide();
-      $('#texto-8').hide();
-      $('#text-8').hide();
-    });
-
-    $('#img-column-4').on('mouseout', function () {
-      $('#texto-4').hide();
-
-    });
-
-    $('#texto-5').hide();
-    $('#text-5').hide();
-
-    $('#img-column-5').on('mouseenter', function () {
-      $('#texto-1').hide();
-      $('#text-1').hide();
-      $('#texto-2').hide();
-      $('#text-2').hide();
-      $('#texto-3').hide();
-      $('#text-3').hide();
-      $('#texto-4').hide();
-      $('#text-4').hide();
-      $('#texto-5').show();
-      $('#text-5').show();
-      $('#texto-6').hide();
-      $('#text-6').hide();
-      $('#texto-7').hide();
-      $('#text-7').hide();
-      $('#texto-8').hide();
-      $('#text-8').hide();
-    });
-
-    $('#img-column-5').on('mouseout', function () {
-      $('#texto-5').hide();
-
-    });
-
-    $('#texto-6').hide();
-    $('#text-6').hide();
-
-    $('#img-column-6').on('mouseenter', function () {
-      $('#texto-1').hide();
-      $('#text-1').hide();
-      $('#texto-2').hide();
-      $('#text-2').hide();
-      $('#texto-3').hide();
-      $('#text-3').hide();
-      $('#texto-4').hide();
-      $('#text-4').hide();
-      $('#texto-5').hide();
-      $('#text-5').hide();
-      $('#texto-6').show();
-      $('#text-6').show();
-      $('#texto-7').hide();
-      $('#text-7').hide();
-      $('#texto-8').hide();
-      $('#text-8').hide();
-    });
-
-    $('#img-column-6').on('mouseout', function () {
-      $('#texto-6').hide();
-
-    });
-
-    $('#texto-7').hide();
-    $('#text-7').hide();
-
-    $('#img-column-7').on('mouseenter', function () {
-      $('#texto-1').hide();
-      $('#text-1').hide();
-      $('#texto-2').hide();
-      $('#text-2').hide();
-      $('#texto-3').hide();
-      $('#text-3').hide();
-      $('#texto-4').hide();
-      $('#text-4').hide();
-      $('#texto-5').hide();
-      $('#text-5').hide();
-      $('#texto-6').hide();
-      $('#text-6').hide();
-      $('#texto-7').show();
-      $('#text-7').show();
-      $('#texto-8').hide();
-      $('#text-8').hide();
-    });
-
-    $('#img-column-7').on('mouseout', function () {
-      $('#texto-7').hide();
-
-    });
-
-    $('#texto-8').hide();
-    $('#text-8').hide();
-
-    $('#img-column-8').on('mouseenter', function () {
-      $('#texto-1').hide();
-      $('#text-1').hide();
-      $('#texto-2').hide();
-      $('#text-2').hide();
-      $('#texto-3').hide();
-      $('#text-3').hide();
-      $('#texto-4').hide();
-      $('#text-4').hide();
-      $('#texto-5').hide();
-      $('#text-5').hide();
-      $('#texto-6').hide();
-      $('#text-6').hide();
-      $('#texto-7').hide();
-      $('#text-7').hide();
-      $('#texto-8').show();
-      $('#text-8').show();
-    });
-
-    $('#img-column-8').on('mouseout', function () {
-      $('#texto-8').hide();
-
-    });
-
-  </script>
-
-</body>
-
-</html>
+  </html>
