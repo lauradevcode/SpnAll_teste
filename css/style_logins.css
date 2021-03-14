@@ -1,0 +1,54 @@
+
+
+#container-1{
+
+    background-color: 	aquamarine;
+    color:black;
+    font-weight: bold;
+    border: solid 3px #000000;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align:center;
+    font-weight: bold;
+}
+
+.icon-vestuario{
+    width:100px;
+}
+
+.note{
+    width:100px;
+}
+
+.cosmetico{
+    width:100px;
+}
+
+
+
+.loja{
+    width:35px;
+    margin-right:5px;
+    }
+
+
+.seguranca{
+    width:35px;
+    margin-right:5px;
+    }
+
+    .comissao{
+        width:35px;
+        margin-right:5px;
+
+    }
+
+    #banner-acelere{
+        background-color: red;
+        color:white;
+    }
