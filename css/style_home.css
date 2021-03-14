@@ -7,8 +7,15 @@
   color: #FFF;
 
 }
-.logins{
-  margin-left: 250%;
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  color: #FFF;
+}
+.logins .myButton .dropdown-menu {
+  min-width: 5rem;
+}
+
+.logins .myButton .dropdown-menu a{
+letter-spacing: 1px;
 }
 
 .myButton {
