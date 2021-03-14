@@ -1,0 +1,2 @@
+# protSpnAll
+ Protótipo inicial
