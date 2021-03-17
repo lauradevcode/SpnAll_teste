@@ -8,7 +8,7 @@
 <strong> <p align="justify"> <strong> Diferencial: </strong> Marketing para as empresas (testes e planos pagos), relacionar o produto à empresa (não somente ao nome da plataforma). </strong>
 <strong> <p align="justify"> Painel do fornecedor, para métricas personalizadas sobre vendas, clientes etc. </p> </strong>
 
-<strong> Equipe: </strong> Laura, Érika, Safyra, Daniel e Alexandre.
+<strong> Equipe:  Laura, Érika, Safyra, Daniel e Alexandre. </strong>
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
