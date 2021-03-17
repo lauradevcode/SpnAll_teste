@@ -32,8 +32,6 @@ Cadastros - Cadastros de comprador ou fornecedor </br>
 Ao efetuar o logout, o usuário será redirecionado para a home </br>
 
 </br>  
-</br>
-
 <h2> Fases do Projeto (Iniciais) </h2> </br.
 
 1 - Definição da equipe </br>
