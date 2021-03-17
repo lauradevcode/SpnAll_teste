@@ -2,7 +2,7 @@
 <h1> Readme SPN ALL </h1>
 
  <p align="justify"> <strong>  Descrição: O projeto aborda a construção de um Marketplace que visa estimular a aproximação de compradores a fornecedores, e vice-versa. Irá atender desde pequenos </strong>
-<strong> até grandes negócios.  </p> </strong>
+<strong> até grandes negócios. O objetivo é atender todo o território nacional, e em até 3 anos a liberação de compras/vendas internacionais </p> </strong>
 
  [![Foto-de-Laura-removebg-preview.png](https://i.postimg.cc/zvg98YsB/Foto-de-Laura-removebg-preview.png)](https://postimg.cc/1VyWr25h) 
 
