@@ -52,6 +52,12 @@ CSS - Arquivos de estilo
 JS - Arquivos JS a serem utilizados
 Vendor - Algumas bibliotecas 
 Cadastro - Telas de Cadastro comprador e fornecedor
+Login - Logins comprador e fornecedor 
+Pós login - Interfaces do usuário já logado
+index - por padrão, como de costume 
+
+
+
 
 
 
