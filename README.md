@@ -1,7 +1,7 @@
 
 <h1> Readme SPN ALL </h1>
 
-<center> [![Foto-de-Laura-removebg-preview.png](https://i.postimg.cc/zvg98YsB/Foto-de-Laura-removebg-preview.png)](https://postimg.cc/1VyWr25h) </center>
+ [![Foto-de-Laura-removebg-preview.png](https://i.postimg.cc/zvg98YsB/Foto-de-Laura-removebg-preview.png)](https://postimg.cc/1VyWr25h) 
 
  <p align="justify"> <strong>  Descrição: O projeto aborda a construção de um Marketplace que visa estimular a aproximação de compradores a fornecedores, e vice-versa. Irá atender desde pequenos </strong>
 <strong> até grandes negócios.  </p> </strong>
