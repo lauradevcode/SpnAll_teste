@@ -5,8 +5,8 @@
 
 <strong> <p align="justify">  Descrição: </strong> O projeto aborda a construção de um Marketplace que visa estimular a aproximação de compradores a fornecedores, e vice-versa. Irá atender desde pequenos 
 até grandes negócios.  </p> </strong>
-<p align="justify"> <strong> Diferencial: </strong> Marketing para as empresas (testes e planos pagos), relacionar o produto à empresa (não somente ao nome da plataforma).
-<p align="justify"> Painel do fornecedor, para métricas personalizadas sobre vendas, clientes etc. </p>
+<strong> <p align="justify"> <strong> Diferencial: </strong> Marketing para as empresas (testes e planos pagos), relacionar o produto à empresa (não somente ao nome da plataforma). </strong>
+<strong> <p align="justify"> Painel do fornecedor, para métricas personalizadas sobre vendas, clientes etc. </p> </strong>
 
 <strong> Equipe: </strong> Laura, Érika, Safyra, Daniel e Alexandre.
 
