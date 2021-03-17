@@ -4,9 +4,7 @@
  <p align="justify"> <strong>  Descrição: O projeto aborda a construção de um Marketplace que aproxima compradores de fornecedores, e vice-versa. Irá atender desde pequenos </strong>
 <strong> até grandes negócios. O objetivo é atender todo o território nacional, e em até 3 anos a liberação de compras/vendas internacionais </p> </strong>
 
-<div align="center">
- [![Foto-de-Laura-removebg-preview.png](https://i.postimg.cc/zvg98YsB/Foto-de-Laura-removebg-preview.png)](https://postimg.cc/1VyWr25h) 
- </div>
+[![banner2.jpg](https://i.postimg.cc/d37v0mtV/banner2.jpg)](https://postimg.cc/Mf8gPBQC)
 
 <strong> <p align="justify"> <strong> Diferencial: </strong> Marketing para as empresas (testes e planos pagos), relacionar o produto à empresa (não somente ao nome da plataforma). Permite que empresas destaquem seus produtos na primeira página, obtenham visibilidade e aumentem suas vendas. </strong>
 <strong> <p align="justify"> Painel do fornecedor, para métricas personalizadas sobre vendas, clientes etc. </p> </strong>
