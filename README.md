@@ -38,7 +38,7 @@ Banco: <img alt="Postgres" src ="https://img.shields.io/badge/postgres-%23316192
 MongoDB 	
 <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>
 
-Será feito um teste para definir o desempenho de um banco não relacional x relacional (Postgre). 
+Será feito um teste para definir o desempenho entre Postgres e Mongo, para identificar ou não a vantagem em usar NOSQL. 
 
 Testes: Os testes serão terceirizados, realizados por uma pessoa responsável, que não faz parte da equipe. No entanto, pedimos que todos testem 
 o máximo possível que conseguirem antes de colocar em produção.
