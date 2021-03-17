@@ -33,7 +33,7 @@ Cadastros - Cadastros de comprador ou fornecedor </br>
 Ao efetuar o logout, o usuário será redirecionado para a home </br>
 
 </br>  
-<h2> Fases do Projeto (Iniciais) </h2> :page_with_curl:	
+<h2> Fases do Projeto (Iniciais) :page_with_curl:	 </h2> 
 
 1 - Definição da equipe </br>
 2 - Definição das responsabilidades (função de cada membro) </br>
