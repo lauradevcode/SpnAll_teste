@@ -6,7 +6,7 @@
 
  [![Foto-de-Laura-removebg-preview.png](https://i.postimg.cc/zvg98YsB/Foto-de-Laura-removebg-preview.png)](https://postimg.cc/1VyWr25h) 
 
-<strong> <p align="justify"> <strong> Diferencial: </strong> Marketing para as empresas (testes e planos pagos), relacionar o produto à empresa (não somente ao nome da plataforma). </strong>
+<strong> <p align="justify"> <strong> Diferencial: </strong> Marketing para as empresas (testes e planos pagos), relacionar o produto à empresa (não somente ao nome da plataforma). Permite que empresas destaquem seus produtos na primeira página, obtenham visibilidade e aumentem suas vendas. </strong>
 <strong> <p align="justify"> Painel do fornecedor, para métricas personalizadas sobre vendas, clientes etc. </p> </strong>
 
 <strong> Equipe:  Laura, Érika, Safyra, Daniel e Alexandre. </strong>
