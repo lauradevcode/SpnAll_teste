@@ -13,5 +13,9 @@ Equipe: Laura, Érika, Safyra, Daniel e Alexandre.
 
 O projeto está em constante manutenção, recebendo ajustes de acordo com o necessário.
 
+<strong> Repositório oficial </strong>
+
+https://drive.google.com/drive/folders/1gkjNBj2mpG0Ao7aiMACUeiogmRTSG0IC?usp=sharing
+
 
 
