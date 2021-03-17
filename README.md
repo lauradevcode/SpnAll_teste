@@ -3,6 +3,7 @@
 
  <p align="justify"> <strong>  Descrição: O projeto aborda a construção de um Marketplace que visa estimular a aproximação de compradores a fornecedores, e vice-versa. Irá atender desde pequenos </strong>
 <strong> até grandes negócios.  </p> </strong>
+
  [![Foto-de-Laura-removebg-preview.png](https://i.postimg.cc/zvg98YsB/Foto-de-Laura-removebg-preview.png)](https://postimg.cc/1VyWr25h) 
 
 <strong> <p align="justify"> <strong> Diferencial: </strong> Marketing para as empresas (testes e planos pagos), relacionar o produto à empresa (não somente ao nome da plataforma). </strong>
