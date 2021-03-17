@@ -22,6 +22,16 @@ https://drive.google.com/drive/folders/1gkjNBj2mpG0Ao7aiMACUeiogmRTSG0IC?usp=sha
 <strong> Comunicação entre a equipe: Será feita via whatsapp, reuniões via Google Meet, podcasts (a definir a plataforma) etc.
 As tarefas a concluir, sendo realizadas e concluídas estão descritas no Trello e também no Google Drive. Todos devem ficar ligados!
   
+<h2> Descrição do Front </h2>
+<h3> Principais Interfaces </h3>
+
+Home - A tela principal, contendo os principais produtos e fornecedores, o menu, além de apresentar a ideia geral da plataforma </br>
+Login - O usuário pode trocar de contexto no menu, escolhendo logar como comprador ou fornecedor </br>
+Cadastros - Cadastros de comprador ou fornecedor </br>
+Área do usuário - Onde o fornecedor ou comprador poderá gerenciar seu perfil </br>
+Ao efetuar o logout, o usuário será redirecionado para a home </br>
+
+</br>  
 <h2> Ferramentas, Linguagens e Frameworks </h2>
 
 Sistema Operacional: O ideal seria, por convenção, todos usarem Windows. <img alt="Windows 10" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" /> 
