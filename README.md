@@ -24,6 +24,9 @@ As tarefas a concluir, sendo realizadas e concluídas estão descritas no Trello
   
 <h1> Ferramentas, Linguagens e Frameworks </h1>
 
+Sistema Operacional: O ideal seria por convenção todos usarem Windows. <img alt="Windows 10" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" /> 
+Porém, pode ser usado Linux. Somente cuidado com versões e compatibilidade de software etc.
+
 <strong> Base para o projeto </strong>
 
 <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> (CSS)
