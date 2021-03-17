@@ -81,8 +81,8 @@ Testes: Os testes serão terceirizados, realizados por uma pessoa responsável, 
 o máximo possível que conseguirem antes de colocar em produção.
 </br>
 
-<h2> Composição do Projeto </h2>
-<h3> Diretórios </h3>
+<h2> Composição do Projeto :bulb:	 </h2>
+<h3> Diretórios :file_folder:	 </h3>
 
 CSS - Arquivos de estilo </br>
 JS - Arquivos JS a serem utilizados </br>
