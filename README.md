@@ -37,6 +37,9 @@ MongoDB 	MongoDB
 
 Será feito um teste para definir o desempenho de um banco não relacional x relacional (Postgre). 
 
+Testes: Os testes serão terceirizados, realizados por uma pessoa responsável, que não faz parte da equipe. No entanto, pedimos que todos testem 
+o máximo possível que conseguirem antes de colocar em produção.
+
 
 
 
