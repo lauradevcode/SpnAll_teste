@@ -22,7 +22,7 @@ https://drive.google.com/drive/folders/1gkjNBj2mpG0Ao7aiMACUeiogmRTSG0IC?usp=sha
 <strong> Comunicação entre a equipe: Será feita via whatsapp, reuniões via Google Meet, podcasts (a definir a plataforma) etc.
 As tarefas a concluir, sendo realizadas e concluídas estão descritas no Trello e também no Google Drive. Todos devem ficar ligados!
   
-<h1> Ferramentas, Linguagens e Frameworks </h1>
+<h2> Ferramentas, Linguagens e Frameworks </h2>
 
 Sistema Operacional: O ideal seria, por convenção, todos usarem Windows. <img alt="Windows 10" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" /> 
 Porém, pode ser usado Linux . Somente cuidado com versões e compatibilidade de software etc.
