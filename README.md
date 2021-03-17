@@ -17,5 +17,7 @@ O projeto está em constante manutenção, recebendo ajustes de acordo com o nec
 
 https://drive.google.com/drive/folders/1gkjNBj2mpG0Ao7aiMACUeiogmRTSG0IC?usp=sharing
 
+<strong> Materiais como gestão de etapas de projeto, wireframes, área de sugestões e relatórios são colocados nesse drive. </strong>
+
 
 
