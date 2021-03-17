@@ -20,7 +20,7 @@ https://drive.google.com/drive/folders/1gkjNBj2mpG0Ao7aiMACUeiogmRTSG0IC?usp=sha
 <strong> Materiais como gestão de etapas de projeto, wireframes, área de sugestões e relatórios são colocados nesse drive. </strong>
 
 <strong> Comunicação entre a equipe: Será feita via whatsapp, reuniões via Google Meet, podcasts (a definir a plataforma).
-As tarefas a concluir, sendo realizadas e concluídas serão descritas no Trello e também no Google Drive. Todos devem ficar ligados!
+As tarefas a concluir, sendo realizadas e concluídas estão descritas no Trello e também no Google Drive. Todos devem ficar ligados!
   
   
 
