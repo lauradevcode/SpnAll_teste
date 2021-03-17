@@ -33,7 +33,7 @@ Cadastros - Cadastros de comprador ou fornecedor </br>
 Ao efetuar o logout, o usuário será redirecionado para a home </br>
 
 </br>  
-<h2> Fases do Projeto (Iniciais) </h2> </br.
+<h2> Fases do Projeto (Iniciais) </h2> </br>.
 
 1 - Definição da equipe </br>
 2 - Definição das responsabilidades (função de cada membro) </br>
@@ -58,7 +58,7 @@ Os testes serão do tipo desde caixa branca, caixa preta, aceitação, usabilida
 20 - Liberação parcial (Primeiros usuários) </br>
 21 - Liberação (Plataforma no ar, totalmente operacional) </br>
 
-<h2> Ferramentas, Linguagens e Frameworks </h2>
+<h2> Ferramentas, Linguagens e Frameworks </h2> :desktop_computer:	
 
 Sistema Operacional: O ideal seria, por convenção, todos usarem Windows. <img alt="Windows 10" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" /> 
 Porém, pode ser usado Linux . Somente cuidado com versões e compatibilidade de software etc.
