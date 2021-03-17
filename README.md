@@ -1,4 +1,3 @@
-<body style="background-color: black; color: red">
 <h1> Readme SPN ALL :white_check_mark: :package:	 :moneybag: </h1>
 
  <p align="justify"> <strong>  Descrição: O projeto aborda a construção de um Marketplace que aproxima compradores e fornecedores, e vice-versa. Irá atender desde pequenos </strong>
