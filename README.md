@@ -48,6 +48,7 @@ Ao efetuar o logout, o usuário será redirecionado para a home </br>
 12 - Construção dos diagramas (caso de uso, BPM, classes etc) </br>
 13 - Codificação (após validar as interfaces) </br>
 14 - Testes de Software (terceirizados ou realizados pelos membros da equipe) </br>
+Os testes serão do tipo desde caixa branca, caixa preta, aceitação, usabilidade, configuração, instalação entre outros </br>
 15 - Verificação de segurança (nos códigos e processos) </br>
 16 - Protocolação dos resultados dos testes (sempre que forem realizados) </br>
 17 - Backups do código e projeto </br>
