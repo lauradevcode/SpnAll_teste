@@ -52,7 +52,7 @@ Ao efetuar o logout, o usuário será redirecionado para a home </br>
 16 - Protocolação dos resultados dos testes (sempre que forem realizados) </br>
 17 - Backups do código e projeto </br>
 18 - Testes beta com usuários selecionados e investidores </br>
-19 - Consultar a asatisfação sobre o projeto (registrar os resultados)
+19 - Consultar a satisfação sobre o projeto (registrar os resultados) </br>
 20 - Liberação parcial (Primeiros usuários) </br>
 21 - Liberação (Plataforma no ar, totalmente operacional) </br>
 
