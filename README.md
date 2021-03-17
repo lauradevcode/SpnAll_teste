@@ -31,6 +31,12 @@ As tarefas a concluir, sendo realizadas e concluídas estão descritas no Trello
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> (Frameworks, entre React, Node ou Vue). Basicamente será usado mesmo React.
 <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 
+Banco: <img alt="Postgres" src ="https://img.shields.io/badge/postgres-%23316192.svg?&style=for-the-badge&logo=postgresql&logoColor=white"/>
+MongoDB 	MongoDB 	
+<img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>
+
+Será feito um teste para definir o desempenho de um banco não relacional x relacional (Postgre). 
+
 
 
 
