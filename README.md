@@ -2,7 +2,7 @@
 <h1> Readme SPN ALL :white_check_mark: :package:	 :moneybag: </h1>
 
  <p align="justify"> <strong>  Descrição: O projeto aborda a construção de um Marketplace que aproxima compradores e fornecedores, e vice-versa. Irá atender desde pequenos </strong>
-<strong> até grandes negócios. O objetivo é atender todo o território nacional, e em até 3 anos alcançar a liberação de compras/vendas internacionais. </p> </strong>
+<strong> até grandes negócios. O objetivo é atender todo o território nacional, e em até 3 anos alcançar a liberação de compras/vendas internacionais. :airplane: </p> </strong>
 </br>
 <strong> A SPN ALL vai eliminar a necessidade de buscar listas de fornecedores, tornando mais fácil encontrar os fornecedores certos. </br>
 Compras protegidas por CNPJ: Fornecedor (obrigatoriamente) e Comprador devem ter um CNPJ válido </strong>
