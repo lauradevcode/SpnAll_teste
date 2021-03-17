@@ -50,11 +50,15 @@ o máximo possível que conseguirem antes de colocar em produção.
 
 CSS - Arquivos de estilo </br>
 JS - Arquivos JS a serem utilizados </br>
+Fontes - Fontes específicas
 Vendor - Algumas bibliotecas </br>
 Cadastro - Telas de Cadastro comprador e fornecedor </br>
 Login - Logins comprador e fornecedor </br>
 Pós login - Interfaces do usuário já logado </br>
 index - por padrão, como de costume </br>
+
+
+
 
 
 
