@@ -23,7 +23,7 @@ https://drive.google.com/drive/folders/1gkjNBj2mpG0Ao7aiMACUeiogmRTSG0IC?usp=sha
 <strong> Comunicação entre a equipe: Será feita via whatsapp, reuniões via Google Meet, podcasts (a definir a plataforma) etc.
 As tarefas a concluir, sendo realizadas e concluídas estão descritas no Trello e também no Google Drive. Todos devem ficar ligados!
   
-<h2> Descrição do Front </h2>
+<h2> Descrição do Front :paintbrush:	 </h2>
 <h3> Principais Interfaces </h3>
 
 Home - A tela principal, contendo os principais produtos e fornecedores, o menu, além de apresentar a ideia geral da plataforma </br>
