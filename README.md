@@ -29,19 +29,33 @@ Porém, pode ser usado Linux . Somente cuidado com versões e compatibilidade de
 
 <strong> Base para o projeto </strong>
 
+CSS
 <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> (CSS)
 
-<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> (Frameworks, entre React, Node ou Vue). Basicamente será usado mesmo React.
+JS/React
+<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+React
 <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 
-Banco: <img alt="Postgres" src ="https://img.shields.io/badge/postgres-%23316192.svg?&style=for-the-badge&logo=postgresql&logoColor=white"/>
-MongoDB 	
+Banco: MongoDB
 <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>
 
-Será feito um teste para definir o desempenho entre Postgres e Mongo, para identificar ou não a vantagem em usar NOSQL. 
 
 Testes: Os testes serão terceirizados, realizados por uma pessoa responsável, que não faz parte da equipe. No entanto, pedimos que todos testem 
 o máximo possível que conseguirem antes de colocar em produção.
+</br>
+
+<h2> Composição do Projeto </h2>
+<h3> Diretórios </h3>
+
+CSS - Arquivos de estilo
+JS - Arquivos JS a serem utilizados
+Vendor - Algumas bibliotecas 
+Cadastro - Telas de Cadastro comprador e fornecedor
+
+
+
+
 
 
 
