@@ -9,5 +9,9 @@ até grandes negócios.  </p>
 
 Equipe: Laura, Érika, Safyra, Daniel e Alexandre.
 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+
+O projeto está em constante manutenção, recebendo ajustes de acordo com o necessário.
+
 
 
