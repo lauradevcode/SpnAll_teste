@@ -3,7 +3,9 @@
 <h2 align="justify">Logo oficial</h2>
 
 <p align="center"> Descrição: O projeto aborda a construção de um Marketplace que visa estimular a aproximação de compradores a fornecedores, e vice-versa. Irá atender desde pequenos 
-até grandes negócios. </p>
+até grandes negócios.  </p>
+<p align="justify"> Diferencial: Marketing para as empresas (testes e planos pagos), relacionar ao produto a empresa (não somente ao nome da plataforma).
+<p align="justify"> Painel do fornecedor, para métricas personalizadas sobre vendas, clientes etc. </p>
 
 Equipe: Laura, Érika, Safyra, Daniel e Alexandre.
 
