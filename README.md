@@ -22,6 +22,12 @@ https://drive.google.com/drive/folders/1gkjNBj2mpG0Ao7aiMACUeiogmRTSG0IC?usp=sha
 <strong> Comunicação entre a equipe: Será feita via whatsapp, reuniões via Google Meet, podcasts (a definir a plataforma).
 As tarefas a concluir, sendo realizadas e concluídas estão descritas no Trello e também no Google Drive. Todos devem ficar ligados!
   
+<h1> Ferramentas, Linguagens e Frameworks </h1>
+
+<strong> Base para o projeto </strong>
+
+
+  
   
 
 
