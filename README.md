@@ -48,13 +48,13 @@ o máximo possível que conseguirem antes de colocar em produção.
 <h2> Composição do Projeto </h2>
 <h3> Diretórios </h3>
 
-CSS - Arquivos de estilo
-JS - Arquivos JS a serem utilizados
-Vendor - Algumas bibliotecas 
-Cadastro - Telas de Cadastro comprador e fornecedor
-Login - Logins comprador e fornecedor 
-Pós login - Interfaces do usuário já logado
-index - por padrão, como de costume 
+CSS - Arquivos de estilo </br>
+JS - Arquivos JS a serem utilizados </br>
+Vendor - Algumas bibliotecas </br>
+Cadastro - Telas de Cadastro comprador e fornecedor </br>
+Login - Logins comprador e fornecedor </br>
+Pós login - Interfaces do usuário já logado </br>
+index - por padrão, como de costume </br>
 
 
 
