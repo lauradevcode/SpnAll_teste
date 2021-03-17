@@ -1,5 +1,5 @@
 
-<h1> Readme SPN ALL :o: :package:	 :moneybag: </h1>
+<h1> Readme SPN ALL :white_check_mark: :package:	 :moneybag: </h1>
 
  <p align="justify"> <strong>  Descrição: O projeto aborda a construção de um Marketplace que aproxima compradores e fornecedores, e vice-versa. Irá atender desde pequenos </strong>
 <strong> até grandes negócios. O objetivo é atender todo o território nacional, e em até 3 anos alcançar a liberação de compras/vendas internacionais. </p> </strong>
