@@ -17,11 +17,9 @@ Compras protegidas por CNPJ: Fornecedor (obrigatoriamente) e Comprador devem ter
 
 <strong> O projeto está em constante manutenção, recebendo ajustes de acordo com o necessário. </strong>
 
-<strong> Repositório oficial (Google Drive) </strong>
+<strong> Repositório Google Drive </strong>
 
-https://drive.google.com/drive/folders/1gkjNBj2mpG0Ao7aiMACUeiogmRTSG0IC?usp=sharing
-
-<strong> Materiais como gestão de etapas de projeto, wireframes, área de sugestões e relatórios são colocados nesse drive. </strong>
+<strong> Materiais como gestão de etapas de projeto, wireframes, área de sugestões e relatórios estão sendo adicionados a um Drive </strong>
 
 <strong> Comunicação entre a equipe: Será feita via whatsapp, reuniões via Google Meet, podcasts (a definir a plataforma) etc.
 As tarefas a concluir, sendo realizadas e concluídas estão descritas no Trello e também no Google Drive. Todos devem ficar ligados!
