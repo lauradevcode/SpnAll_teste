@@ -47,6 +47,10 @@
   top:1px;
 }
 
+.myButton,.dropdown-submenu{
+  margin-left: 440px;
+}
+
 .form-label-group{
   margin-bottom: 1rem;
 }
