@@ -13,16 +13,7 @@
   color: #FFF;
 
 }
-
-.logins .myButton .dropdown-menu {
-  min-width: 5rem;
-
-}
-
-.logins .myButton .dropdown-menu a{
-  letter-spacing: 1px;
-}
-
+/* ===== Botão cadastrar e login ===== */
 .myButton {
   background:linear-gradient(to bottom, #580cf0 5%, #582bb3 100%);
   background-color:#580cf0;
@@ -40,21 +31,17 @@
  
 }
 
-
 .myButton:hover{
   background:linear-gradient(to bottom, #582bb3 5%, #580cf0 100%);
   background-color:#582bb3;
   color: #fff;
 }
-
-.myButton,.dropdown-submenu{
-  margin-left: 440px;
+.logins{
+  margin-left: 74%;
 }
+/* ===== Fim do botao cadastrar e login ===== */
 
-.dropdown-item{
-  margin-right: 10px;
-}
-
+/* ===== Responsividade ===== */
 @media (max-width: 800px){
   .myButton,.dropdown-submenu{
    margin-left: 0px;
@@ -70,7 +57,6 @@
     font-size: 7px;
     
   }
-
   .navbar-nav{
     align-items: center;
     justify-content: space-around;
@@ -83,8 +69,8 @@
 .logins{
   display: none;
 }
-  
 }
+
 /* ===== Flexbox ===== */
 
 .flexys{
