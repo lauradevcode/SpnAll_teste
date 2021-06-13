@@ -1,28 +1,21 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
-  <title>Login - comprador</title>
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/style_home.css">
+  <link rel="stylesheet" href="../css/cadastros.css">
+  <title>SPN ALL - Cadastro</title>
 
-  <!-- ===== BOX ICONS ===== -->
-  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
-  <!-- Custom styles for this template -->
-  <link href="../css/style_logins.css" rel="stylesheet">
 </head>
 
-<body class="text-center">
-
-  <!-- Navbar -->
+<body>
 
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #4A00E0;">
     <div class="container-fluid">
@@ -69,85 +62,48 @@
       </div>
     </div>
   </nav>
-  <!-- Final do NAVBAR-->
+   
+  <!--SECTION FORM--> 
+  <section>
+    <div class="container">
+      <div class="user signinBx">
+        <div class="imgBx"><img src="https://c6.quickcachr.fotos.sapo.pt/i/Gdb18cc88/21933276_ovvzL.jpeg" alt="" /></div>
+        <div class="formBx">
+          <form action="" onsubmit="return false;">
+            <h2>CADASTRO COMPRADOR - SPN ALL</h2>
+            <input type="text" name="Nome" placeholder="Nome Completo" />
+            <input type="email" name="" placeholder="Seu Email" />
+            <input type="password" name="" placeholder="Crie uma Senha" />
+            <input type="password" name="" placeholder="Confirme a Senha escolhida" />
+            <input type="submit" name=""  value="Cadastro" />
+            <p class="signup">
+                <a href="#" onclick="toggleForm();">Sou Fornecedor! CADASTRAR COMO FORNECEDOR</a><br>
+                <a href="../pages/selecionaTipoLogin.html" onclick="toggleForm();">Já possui uma conta? LOGAR</a>
 
-  <div class="container">
-    <main>
-      <div class="row g-3">
-
-        <div class="col-md-5 col-lg-7 order-md-first">
-          <img class="my-5 d-block" src="../img/logo.png" alt="">
-        </div>
-
-
-        <div class="col-md-7 offset-md-1 col-lg-4 my-5">
-          <div class="login__form">
-            <form method="POST" class="login__entrar my-5">
-              <!-- <?php
-							 if(isset($_POST['entrar'])){
-								 $nome = $_POST['nome'];
-								 $sobrenome = $_POST['sobrenome'];
-								 $email = $_POST['email'];
-								 $cnpj = $_POST['cnpj'];
-								 $termo = $_POST['termo'];
-							 echo '<div style="padding:1.5rem">Nome: '.$nome.' '.$sobrenome.'</br>E-mail: '.$email.'</br>CNPJ: '.$cnpj.'</br>Termo Aceito? '.$termo</div>';
-						 ?>-->
-              <div class="text-center">
-                <img
-                  style="filter: invert(15%) sepia(100%) saturate(4286%) hue-rotate(260deg) brightness(77%) contrast(139%);"
-                  class="mb-3" src="../img/bxs-user-circle.svg" alt="" width="72" height="57">
-                <h1 class="h3 mb-5 fw-normal">Conecte-se</h1>
-              </div>
-
-              <div class="mb-3 col-12">
-                <div class="input-group has-validation">
-                  <span class="input-group-text"> <i class='bx bx-user login__icon'></i></span>
-                  <input type="email" class="form-control" name="email" placeholder="Digite seu email" required
-                    autofocus>
-                </div>
-              </div>
-
-              <div class="mb-3 col-12">
-
-                <div class="input-group has-validation">
-                  <span class="input-group-text"> <i class='bx bx-lock-alt login__icon'></i></span>
-                  <input type="text" class="form-control" name="senha" placeholder="Digite sua senha" required>
-                </div>
-              </div>
-
-              <div class="form-check text-start">
-                <input name="fornecedor" type="checkbox" class="form-check-input" id="fornecedor" checked>
-                <label class="form-check-label" for="fornecedor">Fornecedor</label>
-              </div>
-
-              <div class="form-check text-start">
-                <input name="vendedor" type="checkbox" class="form-check-input" id="vendedor">
-                <label class="form-check-label" for="vendedor">Vendedor</label>
-              </div>
-
-              <hr class="my-4">
-
-              <div class="checkbox mb-3">
-                <label>
-                  <input name="lembrar" type="checkbox" value="remember-me"> Lembrar-me
-                </label>
-              </div>
-
-              <button style="background-color: #7430ff;" name="entrar" class="w-100 btn btn-lg btn-primary"
-                type="submit">Entrar</button>
-              <div class="my-3 text-center">
-                <p>Não tem uma conta? <a href="../cadastro/cadcomprador.html">Cadastre-se</a></p>
-              </div>
-              <!--text-center-->
-            </form>
-          </div>
-
+              </p>
+          </form>
         </div>
       </div>
-      <!--row -->
-    </main>
-  </div>
-  <!--container-->
+      <div class="user signupBx">
+        <div class="formBx">
+          <form action="" onsubmit="return false;">
+            <h2>CADASTRO FORNECEDOR</h2>
+            <input type="text" name="Nome" placeholder="Nome Completo" />
+            <input type="email" name="" placeholder="Seu Email" />
+            <input type="password" name="" placeholder="Crie uma Senha" />
+            <input type="password" name="" placeholder="Confirme a Senha Escolhida" />
+            <input type="submit" name="" value="Cadastro" />
+            <p class="signup">
+         
+              <a href="#" onclick="toggleForm();">Retornar</a>
+            </p>
+          </form>
+        </div>
+        <div class="imgBx"><img src="https://mapa-da-obra-producao.s3.amazonaws.com/wp-content/uploads/2019/12/shutterstock_575047027.png" alt="" /></div>
+      </div>
+    </div>
+  </section>
+  <!--FIM DA SECTION-->
 
   <!--FOOTER -->
   <footer class="py-5">
@@ -196,8 +152,20 @@
 
     </div>
   </footer>
+  <!-- final do footer-->
 
+  <!-- troca de contexto - formulario-->
 
+ <script>
+  
+  const toggleForm = () => {
+  const container = document.querySelector('.container');
+  container.classList.toggle('active');
+};
+
+ </script>
+
+ <!-- fim do script-->
 
 </body>
 
