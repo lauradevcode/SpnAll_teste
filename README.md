@@ -11,7 +11,7 @@ Compras protegidas por CNPJ: Fornecedor (obrigatoriamente) e Comprador devem ter
 <strong> <p align="justify"> <strong> Diferencial: </strong> Marketing para as empresas (testes e planos pagos), relacionar o produto à empresa (não somente ao nome da plataforma). Permite que empresas destaquem seus produtos na primeira página, obtenham visibilidade e aumentem suas vendas. </strong>
 <strong> <p align="justify"> Painel do fornecedor, para métricas personalizadas sobre vendas, clientes etc. </p> </strong>
 
-<strong> Equipe:  Laura, Érika, Safyra, Daniel e Alexandre. </strong>
+<strong> Equipe:  Laura, Érika, Goreth e Alexandre. </strong>
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
