@@ -14,29 +14,29 @@
 
 /* ===== Bot�o cadastrar e login ===== */
 .myButton {
-  background: linear-gradient(to bottom, #580cf0 5%, #582bb3 100%);
-  background-color: #580cf0;
+  background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
   border-radius: 23px;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: bold;
   padding: 5px 13px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #000000;
-  text-transform: uppercase;
-}
 
+}
+.myButton a{
+  color: white;
+}
 .myButton:hover {
-  background: linear-gradient(to bottom, #582bb3 5%, #580cf0 100%);
-  background-color: #582bb3;
-  color: #fff;
+  background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+  color: white;
 }
 
 .logins {
   margin-left: 74%;
+  color: white;
 }
 
 /* ===== Fim do botao cadastrar e login ===== */
@@ -121,7 +121,7 @@
 
 /* ===== FOOTER ===== */
 footer {
-  background-color: #7B0DDB;
+  background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
