@@ -4,7 +4,7 @@
   font-size: 1rem;
   font-weight: 600;
   color: #FFF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -19,7 +19,7 @@
   display: inline-block;
   cursor: pointer;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: bold;
   padding: 5px 13px;
@@ -28,15 +28,18 @@
 }
 .myButton a{
   color: white;
+  font-family: 'Poppins', sans-serif;
 }
 .myButton:hover {
   background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
   color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .logins {
   margin-left: 74%;
   color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* ===== Fim do botao cadastrar e login ===== */
@@ -44,79 +47,146 @@
 @media (max-width: 800px) {
   .myButton, .dropdown-submenu {
     margin-left: 0px;
+    font-family: 'Poppins', sans-serif;
   }
 
   .myButton:hover {
     height: 60px;
+    font-family: 'Poppins', sans-serif;
   }
 
   .dropdown-submenu {
     width: 70px;
+    font-family: 'Poppins', sans-serif;
   }
 
   .dropdown-item {
     font-size: 7px;
+    font-family: 'Poppins', sans-serif;
   }
 
   .navbar-nav {
     align-items: center;
     justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
   }
 
   .show {
     width: 30px;
+    font-family: 'Poppins', sans-serif;
   }
 
   .logins {
     display: none;
+    font-family: 'Poppins', sans-serif;
   }
 }
 
 /* ===== Flexbox ===== */
 .tiltf {
   text-align: center;
-  color: #4a4a4a;
-  font-size: 16px;
+  color: rgb(64, 64, 64);
+  font-size: 17px;
   font-weight: 400;
+  font-family: 'Poppins', sans-serif;
   margin: 20px 0 4px;
   letter-spacing: 1.2px;
 }
 
 .caixa_1 {
-  width: 30%;
-  border-radius: 25px;
+  width: 35%;
+  border-radius: 20px;
   background-color: #fff;
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
   z-index: 1;
   -webkit-transition: box-shadow .2s ease-in-out;
   transition: box-shadow .2s ease-in-out;
   margin: 8px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .item-imagem {
   padding: 20px 0 20px 20px;
-  width: 32%;
+  width: 35%;
   float: left;
   max-width: 100%;
+}
+.imgs{
+  width: 100%;
+  height: 100%;
 }
 
 .item-descricao {
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-direction: column;
   flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: normal;
+  justify-content: center;
+  align-items: normal;
+  -webkit-flex-direction: column;
   height: 100%;
   -webkit-justify-content: center;
   justify-content: center;
-  width: 38%;
+  width: 50%;
   margin: 0;
   padding: 40px 25px 40px 0;
   position: relative;
   box-sizing: border-box;
   float: right;
-  font-stretch: normal;
-  font-style: normal;
   text-align: left;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pre_title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+  color: rgb(64, 64, 64);
+  letter-spacing: 1.6px;
+}
+
+.title{
+  font-size: 42px;
+  margin: 0 0 8px;
+  line-height: 1;
+  color: rgb(64, 64, 64);;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sub_title{
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: normal;
+  color: rgb(64, 64, 64);
+  font-family: 'Poppins', sans-serif;
+}
+
+.a_confira{
+  color: #3483fa;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  margin: 6px 0 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.a_confira a{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===== banner2 home  ===== */
+.banner_flat{
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 /* ===== FOOTER ===== */
@@ -124,7 +194,7 @@ footer {
   background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
   width: 100%;
   height: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 footer h5 {
