@@ -1,24 +1,3 @@
-<h1> 🛒 SPN ALL  :package: </h1>
-
- <p align="justify"> <strong>  Descrição: O projeto aborda a construção de um E-commerce/Marketplace que junta num só local compradores e fornecedores, e vice-versa. <br>
-  Irá atender desde pequenos </strong>
-<strong> até grandes negócios. O objetivo é atender todo o território nacional, e em até 3/5 anos alcançar a liberação de compras/vendas internacionais. :airplane: </p> </strong>
-</br>
-<strong> A SPN ALL vai eliminar a necessidade de buscar listas de fornecedores, de demorar a achar grandes e bons fornecedores, facilitar a troca de relações comerciais, 
-tornando mais fácil encontrar os fornecedores certos e excelentes. :bow_and_arrow: </br>
-Compras protegidas por CNPJ: Fornecedor (obrigatoriamente) e Comprador devem ter um CNPJ válido (podendo ser MEI/ME e outros. </strong>
-<br>
-[![banner2.jpg](https://i.postimg.cc/d37v0mtV/banner2.jpg)](https://postimg.cc/Mf8gPBQC)
-
-<p align="justify">💡 <strong> Diferencial: </strong> Marketing digital para vendedores/lojistas (testes e planos pagos), vendedores poderão criar sua loja dentro do seu perfil, fará conexões com fornecedores
-Fornecedores terão que pagar para subir produtos (3 tipos de planos, chamado de Smelan I, Smelan II, Smelan III), 
-relacionar o produto à empresa (não somente ao nome da plataforma). Permite que empresas destaquem seus produtos na primeira página, 
-obtenham visibilidade e aumentem suas vendas. Painel do fornecedor, para métricas personalizadas sobre vendas, clientes etc. </p>
-
-<strong> 👥 Equipe:  Laura, Érika, Goreth, Alexandre, Yuri. 👩‍💻 </strong>
-
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-
 <strong><h1> 🛒 SPN ALL  :package: </h1>
 
  <p align="justify"> <strong>  Descrição: O projeto aborda a construção de um E-commerce/Marketplace que junta num só local compradores e fornecedores, e vice-versa. <br>
@@ -222,4 +201,6 @@ Cadastro - Telas de Cadastro comprador e fornecedor </br>
 Login - Logins comprador e fornecedor </br>
 Pós login - Interfaces do usuário já logado </br>
 index - por padrão, como de costume </br>
+
+
 
