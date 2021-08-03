@@ -1,3 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FFF;
+}
+/* ===== Responsividade ===== */
+@media (max-width: 800px) {
+  .dropdown-submenu {
+    margin-left: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .dropdown-submenu {
+    width: 70px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .dropdown-item {
+    font-size: 7px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .navbar-nav {
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+  }
+
+}
 
 header{
   background-color: #4A00E0;
@@ -27,8 +64,8 @@ form{
 
 form button[type="submit"]{
 color: #fff;
- background-color: #7430ff; 
- font-weight: 600; 
+ background-color: #7430ff;
+ font-weight: 600;
  text-transform: uppercase;
 }
 
@@ -41,18 +78,25 @@ form a{
   font-weight: 600;
 }
 
-footer{
-  background-color: #7430ff; 
+/* ===== FOOTER ===== */
+footer {
+  background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 
-footer nav ul li[class = 'h4']{
-  font-weight: 700;
+footer h5 {
+  color: #FFF;
 }
 
-footer a{
-  color: #f8f8f8;
-  font-weight: 600;
-  font-style: italic;
+footer .list-unstyled {
+  color: #FFF;
+}
+
+footer .list-unstyled a {
+  color: #312a2a;
+  text-decoration: underline;
 }
 
 
@@ -88,7 +132,7 @@ footer a{
   }
 
   footer{
-    height: 250px; 
+    height: 250px;
   }
   footer div.container >[class ^="d-flex"]{
     flex-direction: row !important;

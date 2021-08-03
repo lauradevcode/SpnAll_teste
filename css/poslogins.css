@@ -2,13 +2,10 @@
  width:100px;
 }
 
-  
-
 .search-box{
  background-color:blue;
   }
 
-  
 /*
 ** Style Simple Ecommerce Theme for Bootstrap 4
 ** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
@@ -68,7 +65,7 @@ footer {
 }
 footer a {
     color: #f8f9fa!important
-}  
+}
 
 .logo{
     width:100px;
@@ -77,6 +74,3 @@ footer a {
 .card-img-top{
     width:auto;
 }
-  
-
-
