@@ -8,6 +8,7 @@
 tornando mais fácil encontrar os fornecedores certos e excelentes. :bow_and_arrow: </br>
 Compras protegidas por CNPJ: Fornecedor (obrigatoriamente) e Comprador devem ter um CNPJ válido (podendo ser MEI/ME e outros. </strong>
 <br>
+
 [![banner2.jpg](https://i.postimg.cc/d37v0mtV/banner2.jpg)](https://postimg.cc/Mf8gPBQC)
 
 <p align="justify">💡 <strong> Diferencial: </strong> Marketing digital para vendedores/lojistas (testes e planos pagos), vendedores poderão criar sua loja dentro do seu perfil, fará conexões com fornecedores
@@ -112,4 +113,3 @@ o máximo possível que conseguirem antes de colocar em produção.
 📍Login - Logins comprador/fornecedor - um unico login para os dois usuários </br>
 📍Pós logins - Interfaces do usuário já logado - tela para aparecer após passar login</br>
 📍Index - por padrão, como de costume - Fica a HOME do site </br>
-
