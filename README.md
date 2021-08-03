@@ -3,7 +3,7 @@
  <p align="justify"> <strong>  Descrição: O projeto aborda a construção de um E-commerce/Marketplace que junta num só local compradores e fornecedores, e vice-versa. <br>
   Irá atender desde pequenos </strong>
 <strong> até grandes negócios. O objetivo é atender todo o território nacional, e em até 3/5 anos alcançar a liberação de compras/vendas internacionais. :airplane: </p> </strong>
-</br>
+
 <strong> A SPN ALL vai eliminar a necessidade de buscar listas de fornecedores, de demorar a achar grandes e bons fornecedores, facilitar a troca de relações comerciais, 
 tornando mais fácil encontrar os fornecedores certos e excelentes. :bow_and_arrow: </br>
 Compras protegidas por CNPJ: Fornecedor (obrigatoriamente) e Comprador devem ter um CNPJ válido (podendo ser MEI/ME e outros. </strong>
