@@ -6,12 +6,12 @@
 
 <strong> A SPN ALL vai eliminar a necessidade de buscar listas de fornecedores, de demorar a achar grandes e bons fornecedores, facilitar a troca de relações comerciais, 
 tornando mais fácil encontrar os fornecedores certos e excelentes. :bow_and_arrow: </br>
-Compras protegidas por CNPJ: Fornecedor (obrigatoriamente) e Comprador devem ter um CNPJ válido (podendo ser MEI/ME e outros. </strong>
+Compras protegidas por CNPJ: Fornecedor (obrigatoriamente) e Comprador devem ter um CNPJ válido (podendo ser MEI/ME e outros). </strong>
 <br>
 
 [![banner2.jpg](https://i.postimg.cc/d37v0mtV/banner2.jpg)](https://postimg.cc/Mf8gPBQC)
 
-<p align="justify">💡 <strong> Diferencial: </strong> Marketing digital para vendedores/lojistas (testes e planos pagos), vendedores poderão criar sua loja dentro do seu perfil, fará conexões com fornecedores
+<p align="justify">💡<strong>Diferencial: </strong> Marketing digital para vendedores/lojistas (testes e planos pagos), vendedores poderão criar sua loja dentro do seu perfil, fará conexões com fornecedores
 Fornecedores terão que pagar para subir produtos (3 tipos de planos, chamado de Smelan I, Smelan II, Smelan III), 
 relacionar o produto à empresa (não somente ao nome da plataforma). Permite que empresas destaquem seus produtos na primeira página, 
 obtenham visibilidade e aumentem suas vendas. </strong>
