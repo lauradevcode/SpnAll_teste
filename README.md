@@ -95,7 +95,7 @@ MongoDB (Para buscas rápidas) <br>
 <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/> <br>
 
 
-✅ Testes: Os testes serão terceirizados, realizados por uma pessoa responsável, que não faz parte da equipe. No entanto, pedimos que todos testem 
+✅ Testes: Os testes (de usuário) serão terceirizados, realizados por uma ou mais pessoas responsáveis, que não fazem parte da equipe. No entanto, pedimos que todos testem 
 o máximo possível que conseguirem antes de colocar em produção.
 </br>
 
