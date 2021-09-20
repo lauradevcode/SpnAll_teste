@@ -70,8 +70,9 @@ Os testes serão do tipo desde caixa branca, caixa preta, aceitação, usabilida
 
 <h2>📌 Ferramentas, Linguagens e Frameworks :desktop_computer: </h2> 	
 
-Sistema Operacional: O ideal seria, por convenção, todos usarem Windows. <img alt="Windows 10" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" /> 
-Porém, pode ser usado Linux ou MacOS. Somente cuidado com versões e compatibilidade de software etc.
+Sistema Operacional: O ideal seria, por convenção, todos usarem Windows. <img alt="Windows 10" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />  <br>
+Porém, pode ser usado Linux ou MacOS. <br> 
+Somente cuidado com versões e compatibilidade de software etc.
 
 <strong> Base para o projeto </strong>
 
