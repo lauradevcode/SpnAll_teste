@@ -91,11 +91,11 @@ Angular (Requisição) <br>
 PHP7 (BackEnd) <br>
 <img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/> <br>
 
-MySQL (Restante do sistema) <br>
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) <br>
-
 MongoDB (Para buscas rápidas) <br>
 <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/> <br>
+
+MySQL (Restante do sistema) <br>
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) <br>
 
 
 ✅ Testes: Os testes (de usuário) serão terceirizados, realizados por uma ou mais pessoas responsáveis, que não fazem parte da equipe. No entanto, pedimos que todos testem 
