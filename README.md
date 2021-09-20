@@ -75,16 +75,17 @@ Porém, pode ser usado Linux . Somente cuidado com versões e compatibilidade de
 
 <strong> Base para o projeto </strong>
 
-HTML5
+HTML5 <br>
 <img alt="CSS3" src="https://img.shields.io/badge/html5%20-%231572B6.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <br>
 
-CSS
+CSS (Base para os layouts) <br>
 <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <br>
 
-Bootstrap 5 
+Bootstrap 5 (Estilização de alguns elementos) <br>
 <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/> </br> 
 
-Angular <img alt="Angular" src="https://img.shields.io/badge/angular%20-%23DD0031.svg?&style=for-the-badge&logo=angular&logoColor=white"/> </br>
+Angular (Requisição) <br>
+<img alt="Angular" src="https://img.shields.io/badge/angular%20-%23DD0031.svg?&style=for-the-badge&logo=angular&logoColor=white"/> </br>
 
 PHP7 (BackEnd) <br>
 <img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/> <br>
