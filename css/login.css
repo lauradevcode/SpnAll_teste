@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-body {
-    background-color: white !important;
-}
-
 .navbar-light .navbar-nav .nav-link {
     font-size: 1rem;
     font-weight: 600;
@@ -96,7 +92,8 @@ body {
     text-align: left;
     font-size: 18px;
     margin-left: 40px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .login-form {
@@ -213,7 +210,8 @@ footer {
 
 .footer p,
 li,
-ul {
+ul,
+a {
     color: white;
     text-align: center;
     text-decoration: none;

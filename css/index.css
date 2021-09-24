@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Exo:100);
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar-light .navbar-nav .nav-link {
     font-size: 1rem;
     font-weight: 600;
@@ -211,7 +216,8 @@ footer {
 
 .footer p,
 li,
-ul {
+ul,
+a {
     color: white;
     text-align: center;
     text-decoration: none;

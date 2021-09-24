@@ -2,12 +2,6 @@
     * {
         margin: 0;
         padding: 0;
-        -webkit-box-sizing: border-box;
-        /* Safari/Chrome, other WebKit */
-        -moz-box-sizing: border-box;
-        /* Firefox, other Gecko */
-        box-sizing: border-box;
-        /* Opera/IE 8+ */
     }
     
     .navbar-light .navbar-nav .nav-link {
@@ -48,6 +42,13 @@
         font-family: 'Poppins', sans-serif;
     }
     
+    .logins {
+        margin-left: 74%;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    /* nav */
+    
     #bannercad {
         background-image: url("https://amplificadigital.com.br/wp-content/uploads/2020/02/amplifica_banner_blog_business.png");
     }
@@ -62,7 +63,8 @@
     
     .footer p,
     li,
-    ul {
+    ul,
+    a {
         color: white;
         text-align: center;
         text-decoration: none;
@@ -95,7 +97,8 @@
         text-align: left;
         font-size: 18px;
         margin-left: 40px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
+        text-align: center;
     }
     
     .register-form {
