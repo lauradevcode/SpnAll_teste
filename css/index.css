@@ -203,16 +203,17 @@
 /* ===== FOOTER ===== */
 
 footer {
-    /*Alex*/
-    height: 200px;
-    /*Alex*/
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
-    width: 100%;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
 }
 
-footer p {
+.footer p,
+li,
+ul {
     color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
 }
