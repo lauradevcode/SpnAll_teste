@@ -1,13 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Exo:100);
-
-/*Alex*/
-
-.navbar {
-    height: 80px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-
-/*Alex*/
+body {
+    background-color: white !important;
+}
 
 .navbar-light .navbar-nav .nav-link {
     font-size: 1rem;
@@ -26,8 +25,8 @@
 
 .myButton {
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
-    border-radius: 23px;
     display: inline-block;
+    border-radius: 10px;
     cursor: pointer;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -40,6 +39,7 @@
 .myButton a {
     color: white;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 .myButton:hover {
@@ -60,172 +60,141 @@
 
 /* ===== Inicio Fom ======*/
 
-section {
-    position: relative;
-    height: calc(100vh - 280px);
-    background-color: white;
+.loginContainer h1,
+.loginContainer h2,
+.loginContainer h3,
+.loginContainer h4,
+.loginContainer h5,
+.loginContainer h6,
+.loginContainer a,
+.loginContainer p {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: arial;
+}
+
+.loginbanner {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    flex-direction: column;
+    padding: 40px 40px;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-iphonex-phone-geometry-black-banner-image_171749.jpg");
 }
 
-section .container {
-    position: relative;
-    width: 800px;
-    height: 500px;
-    background: #fff;
-    /*Alex*/
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
-    border-radius: .5rem;
-    /*Alex*/
-    overflow: hidden;
-}
-
-section .container .user {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-section .container .user .imgBx {
-    position: relative;
-    width: 50%;
-    height: 100%;
-    background: white;
-    transition: 0.5s;
-}
-
-section .container .user .imgBx img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-section .container .user .formBx {
-    position: relative;
-    width: 50%;
-    height: 100%;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    transition: 0.5s;
-}
-
-section .container .user .formBx form h2 {
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.loginbanner h1 {
     text-align: center;
-    width: 100%;
-    margin-bottom: 10px;
-    color: #555;
+    color: white;
 }
 
-section .container .user .formBx form input {
-    position: relative;
-    width: 100%;
-    padding: 10px;
-    background: #f5f5f5;
-    color: #333;
-    border: none;
+.loginContainer {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.login-header {
+    color: #000;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-bottom: 20px
+}
+
+.login-form {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #949494;
+    border-radius: 10px;
+}
+
+.login-form h3 {
+    text-align: left;
+    margin-left: 40px;
+    font-size: 14px;
+    color: #656565;
+}
+
+.login-form {
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 10%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.loginContainer input[type="text"],
+.loginContainer input[type="password"] {
+    max-width: 400px;
+    width: 80%;
+    line-height: 3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1em 2em;
+    border-radius: 5px;
+    border: 1px solid gray;
     outline: none;
-    box-shadow: none;
-    margin: 8px 0;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-weight: 300;
-    /*Alex*/
-    border: 1px solid #ccc;
-    border-radius: .5rem;
-    /*Alex*/
+    padding-left: 10px;
 }
 
-section .container .user .formBx form input[type='submit'] {
-    max-width: 100px;
-    background: white;
-    color: #fff;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    transition: 0.5s;
-}
-
-section .container .user .formBx form .signup {
-    position: relative;
-    margin-top: 20px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    color: #555;
+.login-form input[type="button"] {
+    height: 30px;
+    width: 100px;
+    background: #fff;
+    border: 1px solid #949494;
+    border-radius: 5px;
+    color: #949494;
     text-transform: uppercase;
-    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 30px;
 }
 
-section .container .user .formBx form .signup a {
-    font-weight: 600;
-    text-decoration: none;
-    color: #677eff;
+.loginContainer .sign-up {
+    color: #00485B;
+    margin-left: -70%;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
-section .container .signupBx {
-    pointer-events: none;
+.loginContainer .no-access {
+    color: #00485B;
+    margin-left: -70%;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
-section .container.active .signupBx {
-    pointer-events: initial;
+.loginContainer .loginHelp {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
 }
 
-section .container .signupBx .formBx {
-    left: 100%;
+.loginContainer .loginHelp span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #003237;
 }
 
-section .container.active .signupBx .formBx {
-    left: 0;
+.loginContainer a,
+.loginContainer a:visited,
+.loginContainer a:hover,
+.loginContainer a:active {
+    color: red;
 }
 
-section .container .signupBx .imgBx {
-    left: -100%;
-}
 
-section .container.active .signupBx .imgBx {
-    left: 0%;
-}
+/*Media Querie*/
 
-section .container .signinBx .formBx {
-    left: 0%;
-}
-
-section .container.active .signinBx .formBx {
-    left: 100%;
-}
-
-section .container .signinBx .imgBx {
-    left: 0%;
-}
-
-section .container.active .signinBx .imgBx {
-    left: -100%;
-}
-
-@media (max-width: 991px) {
-    section .container {
-        max-width: 400px;
+@media only screen and (min-width: 150px) and (max-width: 530px) {
+    .login-form h3 {
+        text-align: center;
+        margin: 0;
     }
-    section .container .imgBx {
-        display: none;
+    .loginContainer .sign-up,
+    .loginContainer .no-access {
+        margin: 10px 0;
     }
-    section .container .user .formBx {
-        width: 100%;
+    .loginContainer .login-button {
+        margin-bottom: 10px;
     }
 }
 
@@ -244,17 +213,8 @@ footer {
     font-family: 'Poppins', sans-serif;
 }
 
-footer h5 {
-    color: #FFF;
-}
-
-footer .list-unstyled {
-    color: #FFF;
-}
-
-footer .list-unstyled a {
-    color: #312a2a;
-    text-decoration: underline;
+footer p {
+    color: white;
 }
 
 

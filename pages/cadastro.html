@@ -10,162 +10,130 @@
     <link rel="stylesheet" href="../css/cadastro.css">
 </head>
 
-<body style="background: #EAEDED;">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);">
-        <div class="container-fluid">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);">
+    <div class="container-fluid">
 
-            <a class="navbar-brand" href="../index.html">
-                <img src="../img/navbar_brand.ico" style="background-color: white" alt="">
-            </a>
+        <a class="navbar-brand" href="../index.html">
+            <img src="../img/navbar_brand.ico" style="background-color: white" alt="">
+        </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Categorias
-            </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Tecnologias</a></li>
-                            <li><a class="dropdown-item" href="#">Moda</a></li>
-                            <li><a class="dropdown-item" href="#">Eletronica</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Vender</a>
-                    </li>
-
-                    <li class="logins nav-item">
-                        <button class="myButton">
-              <a href="login.html">Login</a>
-            </button>
-                    </li>
-                    <li class="logins nav-item">
-                        <button class="myButton">
-              <a href="cadastro.html">Cadastro</a>
-            </button>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- Final do NAVBAR-->
-
-
-    <!--SECTION FORM-->
-    <section>
-        <div class="container">
-            <div class="user signinBx">
-                <div class="imgBx"><img src="https://c6.quickcachr.fotos.sapo.pt/i/Gdb18cc88/21933276_ovvzL.jpeg" alt="" /></div>
-                <div class="formBx">
-                    <form action="" onsubmit="return false;">
-                        <h2>CADASTRO COMPRADOR</h2>
-                        <input type="text" name="Nome" placeholder="Nome Completo" />
-                        <input type="email" name="" placeholder="Seu Email" />
-                        <input type="password" name="" placeholder="Crie uma Senha" />
-                        <input type="password" name="" placeholder="Confirme a Senha escolhida" />
-                        <button type="submit" class="btn btn-primary">Cadastrar</button><br>
-                        <p class="signup">
-                            <a href="#" onclick="toggleForm();">Sou Fornecedor! CADASTRAR COMO FORNECEDOR</a></br>
-                            </br>
-                            <a href="../pages/login.html" onclick="toggleForm();">Já possui uma conta? LOGAR</a>
-
-                        </p>
-                    </form>
-                </div>
-            </div>
-            <div class="user signupBx">
-                <div class="formBx">
-                    <form action="" onsubmit="return false;">
-                        <h2>CADASTRO FORNECEDOR</h2>
-                        <input type="text" name="Nome" placeholder="Nome Completo" />
-                        <input type="email" name="" placeholder="Seu Email" />
-                        <input type="password" name="" placeholder="Crie uma Senha" />
-                        <input type="password" name="" placeholder="Confirme a Senha Escolhida" />
-
-                        <p class="signup">
-                            <button type="submit" class="btn btn-primary">Cadastrar</button><br/><br/>
-                            <a href="#" onclick="toggleForm();">Retornar</a>
-                        </p>
-                    </form>
-                </div>
-                <div class="imgBx"><img src="https://mapa-da-obra-producao.s3.amazonaws.com/wp-content/uploads/2019/12/shutterstock_575047027.png" alt="" /></div>
-            </div>
-        </div>
-    </section>
-    <!--FIM DA SECTION-->
-
-
-
-    <!--FOOTER -->
-    <footer class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md">
-                    <img src="./img/logo-small.png" alt="">
-                    <small class="d-block mb-3" style="color: #FFF;">&copy; 2021 SPN ALL - Todos os direitos reservados</small>
-                </div>
-
-                <div class="col-12 col-md">
-                    <h5>SPN ALL</h5>
-                    <ul class="list-unstyled text-small">
-                        <li>
-                            O melhor e mais completo <strong>e-commerce Nacional</strong>.
-                            <br>Os melhores fornecedores, voce encontra aqui!<br>
-                            <a href="" title="anuncie no portal de classificados">
-                Cadastra-se!!!
-              </a>
-
-                        </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Categorias
+        </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Tecnologias</a></li>
+                        <li><a class="dropdown-item" href="#">Moda</a></li>
+                        <li><a class="dropdown-item" href="#">Eletronica</a></li>
                     </ul>
-                </div>
-                <div class="col-12 col-md">
-                    <h5>Contatos</h5>
-                    <ul class="list-unstyled text-small">
-                        <li>
-                            <span><i class="fas fa-envelope"></i> Email :</span>
-                            <a href="mailto:contato@nossoguiasp.com.br" title="email do nosso guia sp" target="_system">guia@all.com.br</a>
-                        </li>
+                </li>
 
-                        <li>
-                            <span><i class="fab fa-whatsapp-square"></i> Whatsapp :</span>
-                            <a href="https://api.whatsapp.com/send?phone=5513997599709&amp;text=Contato%20Nosso%20Guia" target="_system">(11)99759-9709</a>
-                        </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vender</a>
+                </li>
 
-                        <li>
-                            <span><i class="fas fa-globe"></i> Website :</span>
-                            <a href="http://www.nossoguiasp.com.br/" title="classificados gratuitos">www.spnall.com.br</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                <li class="logins nav-item">
+                    <button class="myButton">
+          <a href="login.html">Login</a>
+        </button>
+                </li>
+                <li class="logins nav-item">
+                    <button class="myButton">
+          <a href="cadastro.html">Cadastro</a>
+        </button>
+                </li>
 
+            </ul>
         </div>
-    </footer>
+    </div>
+</nav>
+<!--FIM NAV-->
+
+<!--Section Banner-->
+<section id="bannercad">
+    <div id="bannercadastro">
+    </div>
+</section>
+
+<!--Section Formulario-->
+<div class="registerContainer">
+
+    <div class="register-form">
+        <div class="register-header">
+            <h2>Cadastro SPN ALL</h2>
+        </div>
+        <h3>Nome da Empresa</h3>
+        <input type="text" placeholder="Nome da sua Empresa" /><br>
+        <h3>Razão Social</h3>
+        <input type="text" placeholder="Razão Social da Empresa" />
+        <br>
+        <input type="checkbox"> <a> I.E isento? </a></p>
+        <br>
+        <h3>Inscrição Estadual</h3>
+        <input type="text" placeholder="Informe a Inscrição Estadual" />
+        <br>
+        <h3>CNPJ</h3>
+        <input type="text" placeholder="Número do CNPJ" />
+        <br>
+        <h3>Telefone</h3>
+        <input type="text" placeholder="Telefone (Whatsapp)" />
+        <br>
+        <h3>Email</h3>
+        <input type="text" placeholder="Email da Empresa" />
+        <br>
+        <h3>Senha</h3>
+        <input type="password" placeholder="Senha (mínimo 8 caracteres)" />
+        <br>
+        <button class="btn-success">Enviar</button>
+        <p><a href="login.html">Já sou SPN! <br> Clique para entrar</a></p>
+
+    </div>
+</div>
+<!--formulario-->
 
 
-    <!-- troca de contexto - formulario-->
 
-    <script>
-        const toggleForm = () => {
-            const container = document.querySelector('.container');
-            container.classList.toggle('active');
-        };
-    </script>
 
-    <!-- fim do script-->
+<!--FOOTER -->
+<footer>
+    <ul>
+        <li>
+            <p>
+                Todos os direitos reservados &copy
+            </p>
+        </li>
+        <li>
+            <p>
+                Institucional
+            </p>
+        </li>
+        <li>
+            <p>
+                Regras
+            </p>
+        </li>
+        <li>
+            <p>
+                Parcerias
+            </p>
+        </li>
+    </ul>
+</footer>
+
+
 
 </body>
 
