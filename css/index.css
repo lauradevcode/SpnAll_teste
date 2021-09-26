@@ -98,7 +98,7 @@
     font-size: 25px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    margin: 20px 0 4px;
+    margin: 20px 0 18px;
     letter-spacing: 1.2px;
 }
 
@@ -121,6 +121,7 @@
     width: 35%;
     float: left;
     max-width: 100%;
+    margin-left: 5%;
 }
 
 .imgs {
@@ -141,7 +142,7 @@
     -webkit-justify-content: center;
     justify-content: center;
     width: 50%;
-    margin: 0;
+    margin-left: 15%;
     padding: 40px 25px 40px 0;
     position: relative;
     box-sizing: border-box;
