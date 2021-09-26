@@ -1,22 +1,246 @@
-    @import url(https://fonts.googleapis.com/css?family=Exo:100);
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FFF;
+}
+
+
+/* ===== Botao cadastrar e login ===== */
+
+.myButton {
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 13px;
+    text-decoration: none;
+}
+
+.myButton a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.myButton:hover {
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logins {
+    margin-left: 74%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* nav */
+
+#bannercad {
+    background-image: url("https://amplificadigital.com.br/wp-content/uploads/2020/02/amplifica_banner_blog_business.png");
+}
+
+
+/* ===== FOOTER ===== */
+
+footer {
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer p,
+li,
+ul,
+a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* Registrar/Erika */
+
+.registerContainer h1,
+.registerContainer h2,
+.registerContainer h3,
+.registerContainer h4,
+.registerContainer h5,
+.registerContainer h6,
+.registerContainer a,
+.registerContainer p {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.registerContainer {
+    width: 900px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.register-header {
+    color: #000;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dados-pessoa1,
+.dados-pessoa2 {
+    margin: 0 auto;
+}
+
+.registerContainer h1 {
+    text-align: center;
+}
+
+.register-form {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fce1e1;
+    border-radius: 10px;
+    display: flex;
+}
+
+.register-form h3 {
+    text-align: left;
+    margin-left: 40px;
+    font-size: 14px;
+    color: #656565;
+}
+
+.register-form {
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 10%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.registerContainer input[type="text"],
+.registerContainer input[type="password"] {
+    max-width: 400px;
+    width: 80%;
+    line-height: 3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1em 2em;
+    border-radius: 5px;
+    border: 1px solid #949494;
+    outline: none;
+    padding-left: 10px;
+    display: block;
+}
+
+.register-form input[type="button"] {
+    height: 30px;
+    width: 100px;
+    background: #fff;
+    border: 1px solid #949494;
+    border-radius: 5px;
+    color: #949494;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.btn-success {
+    margin-right: 320px;
+}
+
+.registerContainer .sign-up {
+    color: #00485B;
+    margin-left: -70%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.registerContainer .no-access {
+    color: #00485B;
+    margin-left: -70%;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.registerContainer .loginHelp {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.registerContainer .loginHelp span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #003237;
+}
+
+.registerContainer a,
+.registerContainer a:visited,
+.registerContainer a:hover,
+.registerContainer a:active {
+    color: red;
+}
+
+.show {
+    width: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#formcadastro h1 {
+    text-align: center;
+}
+
+#cadastrar {
+    border: 5px solid black;
+}
+
+#bannercad {
+    padding: 70px;
+}
+
+@media only screen and (max-width: 720px) {
     * {
         margin: 0;
         padding: 0;
     }
-    
     .navbar-light .navbar-nav .nav-link {
         font-size: 1rem;
         font-weight: 600;
         color: #FFF;
         font-family: 'Poppins', sans-serif;
+        display: none;
     }
-    
     .navbar-light .navbar-nav .nav-link:focus,
     .navbar-light .navbar-nav .nav-link:hover {
         color: #FFF;
     }
     /* ===== Botao cadastrar e login ===== */
-    
     .myButton {
         background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
         display: inline-block;
@@ -29,49 +253,19 @@
         padding: 5px 13px;
         text-decoration: none;
     }
-    
     .myButton a {
         color: white;
         font-family: 'Poppins', sans-serif;
         text-decoration: none;
     }
-    
     .myButton:hover {
         background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
         color: white;
         font-family: 'Poppins', sans-serif;
     }
-    
-    .logins {
-        margin-left: 74%;
-        color: white;
-        font-family: 'Poppins', sans-serif;
-    }
-    /* nav */
-    
-    #bannercad {
-        background-image: url("https://amplificadigital.com.br/wp-content/uploads/2020/02/amplifica_banner_blog_business.png");
-    }
-    /* ===== FOOTER ===== */
-    
     footer {
-        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
-        font-family: 'Poppins', sans-serif;
-        display: flex;
-        flex-direction: column;
+        visibility: hidden;
     }
-    
-    .footer p,
-    li,
-    ul,
-    a {
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        list-style: none;
-    }
-    /* Registrar/Erika */
-    
     .registerContainer h1,
     .registerContainer h2,
     .registerContainer h3,
@@ -86,12 +280,12 @@
         font-family: arial;
         text-decoration: none;
     }
-    
     .registerContainer {
+        width: 320px;
+        height: 320px;
         margin: 0 auto;
-        max-width: 500px;
+        display: block;
     }
-    
     .register-header {
         color: #000;
         text-align: left;
@@ -100,21 +294,27 @@
         margin-bottom: 20px;
         text-align: center;
     }
-    
+    .dados-pessoa1,
+    .dados-pessoa2 {
+        margin: 0 auto;
+    }
+    .registerContainer h1 {
+        text-align: center;
+        visibility: hidden;
+    }
     .register-form {
         border-style: solid;
         border-width: 1px;
-        border-color: #949494;
+        border-color: #fce1e1;
         border-radius: 10px;
+        display: block;
     }
-    
     .register-form h3 {
         text-align: left;
         margin-left: 40px;
         font-size: 14px;
         color: #656565;
     }
-    
     .register-form {
         box-sizing: border-box;
         padding-top: 15px;
@@ -122,120 +322,4 @@
         margin: 5% auto;
         text-align: center;
     }
-    
-    .registerContainer input[type="text"],
-    .registerContainer input[type="password"] {
-        max-width: 400px;
-        width: 80%;
-        line-height: 3em;
-        font-family: 'Ubuntu', sans-serif;
-        margin: 1em 2em;
-        border-radius: 5px;
-        border: 1px solid #949494;
-        outline: none;
-        padding-left: 10px;
-    }
-    
-    .register-form input[type="button"] {
-        height: 30px;
-        width: 100px;
-        background: #fff;
-        border: 1px solid #949494;
-        border-radius: 5px;
-        color: #949494;
-        text-transform: uppercase;
-        cursor: pointer;
-        margin-bottom: 30px;
-    }
-    
-    .registerContainer .sign-up {
-        color: #00485B;
-        margin-left: -70%;
-        cursor: pointer;
-        text-decoration: underline;
-    }
-    
-    .registerContainer .no-access {
-        color: #00485B;
-        margin-left: -70%;
-        text-decoration: underline;
-        cursor: pointer;
-    }
-    
-    .registerContainer .loginHelp {
-        font-size: 12px;
-        text-align: left;
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-bottom: 20px;
-    }
-    
-    .registerContainer .loginHelp span {
-        font-size: 14px;
-        font-weight: 700;
-        color: #003237;
-    }
-    
-    .registerContainer a,
-    .registerContainer a:visited,
-    .registerContainer a:hover,
-    .registerContainer a:active {
-        color: red;
-    }
-    /*Media Querie*/
-    
-    @media only screen and (min-width: 150px) and (max-width: 530px) {
-        .register-form h3 {
-            text-align: center;
-            margin: 0;
-        }
-        .registerContainer .sign-up,
-        .registerContainer .no-access {
-            margin: 10px 0;
-        }
-        .registerContainer .register-button {
-            margin-bottom: 10px;
-        }
-    }
-    /* ===== Responsividade ===== */
-    
-    @media (max-width: 800px) {
-        .myButton,
-        .dropdown-submenu {
-            margin-left: 0px;
-            font-family: 'Poppins', sans-serif;
-        }
-        .myButton:hover {
-            height: 60px;
-            font-family: 'Poppins', sans-serif;
-        }
-        .dropdown-submenu {
-            width: 70px;
-            font-family: 'Poppins', sans-serif;
-        }
-        .dropdown-item {
-            font-size: 7px;
-            font-family: 'Poppins', sans-serif;
-        }
-        .navbar-nav {
-            align-items: center;
-            justify-content: space-around;
-            font-family: 'Poppins', sans-serif;
-        }
-        .show {
-            width: 30px;
-            font-family: 'Poppins', sans-serif;
-        }
-    }
-    
-    #formcadastro h1 {
-        text-align: center;
-    }
-    
-    #cadastrar {
-        border: 5px solid black;
-    }
-    
-    #bannercad {
-        padding: 90px;
-    }
+}
