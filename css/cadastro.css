@@ -136,7 +136,7 @@ a {
 
 .register-form {
     box-sizing: border-box;
-    padding-top: 15px;
+    padding-top: 40px;
     padding-bottom: 10%;
     margin: 5% auto;
     text-align: center;
@@ -259,34 +259,6 @@ a {
 }
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-    body {
-        width: 100%;
-    }
-    .registerContainer {
-        width: 100%;
-        margin: 0 auto;
-        justify-content: center;
-    }
-    .register-form {
-        display: inline-block;
-        margin: 0 auto;
-        justify-content: center;
-        overflow-x: hidden;
-    }
-    footer {
-        visibility: hidden;
-    }
-    .navbar-light {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
-}
-
-
-/* Iphone 5/SE */
-
-@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 3) {
     body {
         width: 100%;
     }
