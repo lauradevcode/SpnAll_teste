@@ -224,102 +224,166 @@ a {
     padding: 70px;
 }
 
-@media only screen and (max-width: 720px) {
-    * {
-        margin: 0;
-        padding: 0;
+
+/* media queries \*
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .registerContainer {
+        width: 100%;
+        margin: 0 auto;
     }
-    .navbar-light .navbar-nav .nav-link {
-        font-size: 1rem;
-        font-weight: 600;
-        color: #FFF;
-        font-family: 'Poppins', sans-serif;
-        display: none;
-    }
-    .navbar-light .navbar-nav .nav-link:focus,
-    .navbar-light .navbar-nav .nav-link:hover {
-        color: #FFF;
-    }
-    /* ===== Botao cadastrar e login ===== */
-    .myButton {
-        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
-        display: inline-block;
-        border-radius: 10px;
-        cursor: pointer;
-        color: white;
-        font-family: 'Poppins', sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        padding: 5px 13px;
-        text-decoration: none;
-    }
-    .myButton a {
-        color: white;
-        font-family: 'Poppins', sans-serif;
-        text-decoration: none;
-    }
-    .myButton:hover {
-        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
-        color: white;
-        font-family: 'Poppins', sans-serif;
+    .register-form {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
     }
     footer {
         visibility: hidden;
     }
-    .registerContainer h1,
-    .registerContainer h2,
-    .registerContainer h3,
-    .registerContainer h4,
-    .registerContainer h5,
-    .registerContainer h6,
-    .registerContainer a,
-    .registerContainer p {
-        margin: 0;
-        padding: 0;
-        color: #000;
-        font-family: arial;
-        text-decoration: none;
+    .navbar-light {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    #bannercad {
+        width: 100%;
+    }
+    .dados-pessoa1 {
+        width: 100%;
+    }
+    .dados-pessoa2 {
+        width: 100%;
+    }
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    body {
+        width: 100%;
     }
     .registerContainer {
-        width: 320px;
-        height: 320px;
+        width: 100%;
         margin: 0 auto;
-        display: block;
+        justify-content: center;
     }
-    .register-header {
-        color: #000;
-        text-align: left;
-        font-size: 18px;
-        margin-left: 40px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .dados-pessoa1,
-    .dados-pessoa2 {
+    .register-form {
+        display: inline-block;
         margin: 0 auto;
+        justify-content: center;
+        overflow-x: hidden;
     }
-    .registerContainer h1 {
-        text-align: center;
+    footer {
         visibility: hidden;
     }
+    .navbar-light {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+
+/* Iphone 5/SE */
+
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 3) {
+    body {
+        width: 100%;
+    }
+    .registerContainer {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
     .register-form {
-        border-style: solid;
-        border-width: 1px;
-        border-color: #fce1e1;
-        border-radius: 10px;
-        display: block;
+        display: inline-block;
+        margin: 0 auto;
+        justify-content: center;
+        overflow-x: hidden;
     }
-    .register-form h3 {
-        text-align: left;
-        margin-left: 40px;
-        font-size: 14px;
-        color: #656565;
+    footer {
+        visibility: hidden;
+    }
+    .navbar-light {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    /* STYLES GO HERE */
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {}
+
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .registerContainer {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
     }
     .register-form {
-        box-sizing: border-box;
-        padding-top: 15px;
-        padding-bottom: 10%;
-        margin: 5% auto;
-        text-align: center;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        overflow-x: hidden;
     }
+    footer {
+        visibility: hidden;
+    }
+    .navbar-light {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    /* STYLES GO HERE */
+}
+
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {
+    /* STYLES GO HERE */
+}
+
+
+/* iPhone 5 (portrait & landscape)----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    /* STYLES GO HERE */
+}
+
+
+/* iPhone 5 (landscape)----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+    /* STYLES GO HERE */
+}
+
+
+/* iPhone 5 (portrait)----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+    /* STYLES GO HERE */
 }
