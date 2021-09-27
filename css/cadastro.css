@@ -291,26 +291,23 @@ a {
 }
 
 
-/* iPads (portrait and landscape) ----------- */
+/* Desktops and laptops ----------- */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+@media only screen and (min-width: 1224px) {
+    /* STYLES GO HERE */
+}
 
-
-/* iPads (landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {}
-
-
-/* iPads (portrait) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        width: 100%;
+    }
     .registerContainer {
         width: 100%;
         margin: 0 auto;
         justify-content: center;
     }
     .register-form {
-        display: flex;
+        display: inline-block;
         margin: 0 auto;
         justify-content: center;
         overflow-x: hidden;
@@ -323,13 +320,6 @@ a {
         flex-direction: row;
         width: 100%;
     }
-}
-
-
-/* Desktops and laptops ----------- */
-
-@media only screen and (min-width: 1224px) {
-    /* STYLES GO HERE */
 }
 
 
