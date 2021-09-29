@@ -208,19 +208,30 @@
 
 /* ===== FOOTER ===== */
 
-footer {
+.footer {
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
+    color: white;
+
 }
 
-.footer p,
-li,
-ul,
-a {
-    color: white;
+.footer a {
+    color: rgb(251, 11, 11);
     text-align: center;
     text-decoration: none;
     list-style: none;
+    width: 100%;
+    height: 100%;
+}
+.sub-footer {
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.colunasf {
+    margin-top: 2%;
+    width: 50%;
+    height: 50%;
 }

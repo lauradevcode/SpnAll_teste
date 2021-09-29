@@ -57,27 +57,35 @@
     background-image: url("https://amplificadigital.com.br/wp-content/uploads/2020/02/amplifica_banner_blog_business.png");
 }
 
-
 /* ===== FOOTER ===== */
 
-footer {
+.footer {
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
+    color: white;
+
 }
 
-.footer p,
-li,
-ul,
-a {
-    color: white;
+.footer a {
+    color: rgb(251, 11, 11);
     text-align: center;
     text-decoration: none;
     list-style: none;
+    width: 100%;
+    height: 100%;
 }
-
-
+.sub-footer {
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.colunasf {
+    margin-top: 2%;
+    width: 50%;
+    height: 50%;
+}
 /* Registrar/Erika */
 
 .registerContainer h1,
@@ -239,9 +247,34 @@ a {
         margin: 0 auto;
         width: 100%;
     }
-    footer {
+    /* ===== FOOTER ===== */
+
+    .footer {
+        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+        font-family: 'Poppins', sans-serif;
+        color: white;
+
+    }
+
+    .footer a {
+        color: rgb(251, 11, 11);
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
         width: 100%;
-        margin-top: 350px;
+        height: 100%;
+    }
+    .sub-footer {
+        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+        font-family: 'Poppins', sans-serif;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .colunasf {
+        margin-top: 2%;
+        width: 50%;
+        height: 50%;
     }
     .navbar-light {
         display: flex;
@@ -274,9 +307,34 @@ a {
         justify-content: center;
         overflow-x: hidden;
     }
-    footer {
+    /* ===== FOOTER ===== */
+
+    .footer {
+        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+        font-family: 'Poppins', sans-serif;
+        color: white;
+
+    }
+
+    .footer a {
+        color: rgb(251, 11, 11);
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
         width: 100%;
-        margin-top: 350px;
+        height: 100%;
+    }
+    .sub-footer {
+        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+        font-family: 'Poppins', sans-serif;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .colunasf {
+        margin-top: 2%;
+        width: 50%;
+        height: 50%;
     }
     .navbar-light {
         display: flex;
