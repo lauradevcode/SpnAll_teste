@@ -23,6 +23,7 @@
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     display: inline-block;
     border-radius: 10px;
+    border: 1px solid #ec77ab;
     cursor: pointer;
     color: white;
     font-family: 'Poppins', sans-serif;
