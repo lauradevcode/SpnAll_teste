@@ -230,6 +230,8 @@
     float: left;
     width: 100%;
     text-align: center;
+    border-top: purple;
+    border: 1px solid #ff5da5;
 }
 .colunasf {
     margin-top: 2%;
