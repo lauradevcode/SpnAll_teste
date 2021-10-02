@@ -2,196 +2,190 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - SPN ALL</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - SPN ALL</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);">
-        <div class="container-fluid">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img src="img/navbar_brand.ico" style="background-color: white" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-            <a class="navbar-brand" href="../index.html">
-                <img src="img/navbar_brand.ico" style="background-color: white" alt="">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorias
             </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Tecnologias</a></li>
+              <li><a class="dropdown-item" href="#">Moda</a></li>
+              <li><a class="dropdown-item" href="#">Eletronica</a></li>
+            </ul>
+          </li>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vender</a>
+          </li>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <li class="logins nav-item">
+            <button class="myButton">
+              <a href="./pages/login.html">Login</a>
+            </button>
+          </li>
+          <li class="logins nav-item">
+            <button class="myButton">
+              <a href="./pages/cadastro.html">Cadastro</a>
+            </button>
+          </li>
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--FIM NAV-->
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
-                    </li>
+  <!-- Banner Carousel -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/bannerteste.png" class="imgb d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/bannerteste.png" class="imgb d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/bannerteste.png" class="imgb d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Categorias
-        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Tecnologias</a></li>
-                            <li><a class="dropdown-item" href="#">Moda</a></li>
-                            <li><a class="dropdown-item" href="#">Eletronica</a></li>
-                        </ul>
-                    </li>
+  <!-- Inicio do Flex-Box -->
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Vender</a>
-                    </li>
+  <h1 class="titulomarcas">AS MELHORES MARCAS</h1>
+  <div class="d-inline-flex p-2 bd-highlight flex-wrap justify-content-center">
+    <!-- Simular um container -->
 
-                    <li class="logins nav-item">
-                        <button class="myButton">
-          <a href="./pages/login.html">Login</a>
-        </button>
-                    </li>
-                    <li class="logins nav-item">
-                        <button class="myButton">
-          <a href="./pages/cadastro.html">Cadastro</a>
-        </button>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--FIM NAV-->
-
-    <!-- Banner Carousel -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/bannerteste.png" class="imgb d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/bannerteste.png" class="imgb d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/bannerteste.png" class="imgb d-block w-100" alt="...">
-            </div>
-        </div>
+    <div class="caixa_1 flex-item">
+      <!-- item-flex 1 -->
+      <div class="item-imagem">
+        <img src="img/melhores_marcas1.png" alt="" class="imgs">
+      </div>
+      <div class="item-descricao">
+        <span class="pre_title"> ATÉ </span>
+        <h3 class="title"> 65% OFF </h3>
+        <h6 class="sub_title">IDEAL PARA SEU PAI</h6>
+        <span class="a_confira"> <a href="#"> Aproveite </a> </span>
+      </div>
     </div>
 
-    <!-- Inicio do Flex-Box -->
-
-    <h1 class="titulomarcas">AS MELHORES MARCAS</h1>
-
-    <div class="d-inline-flex p-2 bd-highlight flex-wrap justify-content-center">
-        <!-- Simular um container -->
-
-        <div class="caixa_1 flex-item">
-            <!-- item-flex 1 -->
-            <div class="item-imagem">
-                <img src="img/melhores_marcas1.png" alt="" class="imgs">
-            </div>
-            <div class="item-descricao">
-                <span class="pre_title"> ATÉ </span>
-                <h3 class="title"> 65% OFF </h3>
-                <h6 class="sub_title">IDEAL PARA SEU PAI</h6>
-                <span class="a_confira"> <a href="#"> Aproveite </a> </span>
-            </div>
-        </div>
-
-        <div class="caixa_1 flex-item">
-            <!-- item-flex 2 -->
-            <div class="item-imagem">
-                <img src="img/melhores_marcas2.png" alt="" class="imgs">
-            </div>
-            <div class="item-descricao">
-                <span class="pre_title"> ATÉ </span>
-                <h3 class="title"> 80% OFF </h3>
-                <h6 class="sub_title">AS MELHORES MARCAS</h6>
-                <span class="a_confira"> <a href="#"> Confira </a> </span>
-            </div>
-        </div>
-
-        <div class="caixa_1 flex-item">
-            <!-- item-flex 3 -->
-            <div class="item-imagem">
-                <img src="img/melhores_marcas3.png" alt="" class="imgs">
-            </div>
-            <div class="item-descricao">
-                <span class="pre_title"> ATÉ </span>
-                <h3 class="title"> 40% OFF </h3>
-                <h6 class="sub_title">EXCLUSIVAS</h6>
-                <span class="a_confira"> <a href="#"> Confira </a> </span>
-            </div>
-        </div>
-
-        <div class="caixa_1 flex-item">
-            <!-- item-flex 4 -->
-            <div class="item-imagem">
-                <img src="img/melhores_marcas4.png" alt="" class="imgs">
-            </div>
-            <div class="item-descricao">
-                <span class="pre_title"> ATÉ </span>
-                <h3 class="title"> 10% OFF </h3>
-                <h6 class="sub_title">ROKU EXPRESS</h6>
-                <span class="a_confira"> <a href="#"> Confira </a> </span>
-            </div>
-        </div>
-
+    <div class="caixa_1 flex-item">
+      <!-- item-flex 2 -->
+      <div class="item-imagem">
+        <img src="img/melhores_marcas2.png" alt="" class="imgs">
+      </div>
+      <div class="item-descricao">
+        <span class="pre_title"> ATÉ </span>
+        <h3 class="title"> 80% OFF </h3>
+        <h6 class="sub_title">AS MELHORES MARCAS</h6>
+        <span class="a_confira"> <a href="#"> Confira </a> </span>
+      </div>
     </div>
-    <!--FIM dos Flex - Box-->
 
-    <div class="banner_flat">
-        <img src="img/home_1.png" style="width: 71%;border-radius: 20px;">
-    </div> <!--  vou testar agora -->
-
-
-    <!--FOOTER -->
-    <footer class="footer">
-      <div class="container">
-      				<div class="row">
-      					<div class="colunasf col-12 col-md">
-      						<h5>Guia SP</h5>
-      						<ul class="list-unstyled text-small">
-      							<li>
-      								O melhor e mais completo <strong>Guia comercial de São Paulo</strong>.
-      								<br>Comércio, Bares, Escolas e Eventos a um clique.<br>
-      								<a href="/anunciar" title="anuncie no portal de classificados">
-      									Anuncie no Nosso Guia
-      								</a>!<br>
-      								Sua marca aparecerá em destaque para mais de 500.000 usuários diariamente.
-      							</li>
-      						</ul>
-      					</div>
-      					<div class="colunasf col-12 col-md">
-      						<h5>Contatos</h5>
-      						<ul class="list-unstyled text-small">
-      							<li>
-      								<span><i class="fas fa-envelope"></i> Email :</span>
-      								<a href="mailto:contato@nossoguiasp.com.br" title="email do nosso guia sp" target="_system">contato@guiasp.com.br</a>
-      							</li>
-      							<li>
-      								<span><i class="fab fa-whatsapp-square"></i> Whatsapp :</span>
-      								<a href="https://api.whatsapp.com/send?phone=5513997599709&amp;text=Contato%20Nosso%20Guia" target="_system">(13)99759-9709</a>
-      							</li>
-      							<li>
-      								<span><i class="fas fa-globe"></i> Website :</span>
-      								<a href="www.guiacomercialsp.com.br/" title="classificados gratuitos">www.guiacomercialsp.com.br</a>
-      							</li>
-      						</ul>
-      					</div>
-      				</div>
-
-      			</div>
-    </footer>
-    <!--FIM FOOTER-->
-    <div class="sub-footer">
-    	<div class="container py-lg-2">
-    		<small class="d-block mb-3" style="color: #FFF; margin-top: 2%;" >&copy; 2021 GUIA SP - Todos os direitos reservados</small>
-    	</div>
+    <div class="caixa_1 flex-item">
+      <!-- item-flex 3 -->
+      <div class="item-imagem">
+        <img src="img/melhores_marcas3.png" alt="" class="imgs">
+      </div>
+      <div class="item-descricao">
+        <span class="pre_title"> ATÉ </span>
+        <h3 class="title"> 40% OFF </h3>
+        <h6 class="sub_title">EXCLUSIVAS</h6>
+        <span class="a_confira"> <a href="#"> Confira </a> </span>
+      </div>
     </div>
-    		<!-- ==== Bootstrap v5 ==== -->
-    		<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <div class="caixa_1 flex-item">
+      <!-- item-flex 4 -->
+      <div class="item-imagem">
+        <img src="img/melhores_marcas4.png" alt="" class="imgs">
+      </div>
+      <div class="item-descricao">
+        <span class="pre_title"> ATÉ </span>
+        <h3 class="title"> 10% OFF </h3>
+        <h6 class="sub_title">ROKU EXPRESS</h6>
+        <span class="a_confira"> <a href="#"> Confira </a> </span>
+      </div>
+    </div>
+
+  </div>
+  <!--FIM dos Flex - Box-->
+
+  <div class="banner_flat">
+    <img src="img/home_1.png" style="width: 71%;border-radius: 20px;">
+  </div> <!--  vou testar agora -->
+
+  <!--FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="colunasf col-12 col-md">
+          <h5>Guia SP</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              O melhor e mais completo <strong>Guia comercial de São Paulo</strong>.
+              <br>Comércio, Bares, Escolas e Eventos a um clique.<br>
+              <a href="/anunciar" title="anuncie no portal de classificados">
+                Anuncie no Nosso Guia
+              </a>!<br>
+              Sua marca aparecerá em destaque para mais de 500.000 usuários diariamente.
+            </li>
+          </ul>
+        </div>
+        <div class="colunasf col-12 col-md">
+          <h5>Contatos</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <span><i class="fas fa-envelope"></i> Email :</span>
+              <a href="mailto:contato@nossoguiasp.com.br" title="email do nosso guia sp" target="_system">contato@guiasp.com.br</a>
+            </li>
+            <li>
+              <span><i class="fab fa-whatsapp-square"></i> Whatsapp :</span>
+              <a href="https://api.whatsapp.com/send?phone=5513997599709&amp;text=Contato%20Nosso%20Guia" target="_system">(13)99759-9709</a>
+            </li>
+            <li>
+              <span><i class="fas fa-globe"></i> Website :</span>
+              <a href="www.guiacomercialsp.com.br/" title="classificados gratuitos">www.guiacomercialsp.com.br</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--FIM FOOTER-->
+  <div class="sub-footer">
+    <div class="container py-lg-2">
+      <small class="d-block mb-3" style="color: #FFF; margin-top: 2%;">&copy; 2021 GUIA SP - Todos os direitos reservados</small>
+    </div>
+  </div>
+  <!-- ==== Bootstrap v5 ==== -->
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
