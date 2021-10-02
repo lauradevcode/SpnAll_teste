@@ -17,7 +17,7 @@ relacionar o produto à empresa (não somente ao nome da plataforma). Permite qu
 obtenham visibilidade e aumentem suas vendas. </strong>
 <strong> <p align="justify"> Painel do fornecedor, para métricas personalizadas sobre vendas, clientes etc. </p>
 
-<strong> 👥 Equipe:  Laura, Érika, Goreth, Alexandre, Yuri. 👥 </strong>
+<strong> 👥 Equipe:  Laura, Érika, Goreth, Alexandre, Walter, Ana. 👥 </strong>
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
