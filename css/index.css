@@ -213,7 +213,6 @@
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     font-family: 'Poppins', sans-serif;
     color: white;
-
 }
 
 .footer a {
@@ -224,6 +223,7 @@
     width: 100%;
     height: 100%;
 }
+
 .sub-footer {
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     font-family: 'Poppins', sans-serif;
@@ -233,6 +233,7 @@
     border-top: purple;
     border: 1px solid #ff5da5;
 }
+
 .colunasf {
     margin-top: 2%;
     width: 50%;
