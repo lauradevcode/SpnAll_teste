@@ -64,45 +64,46 @@
     </nav>
     <!--FIM NAV-->
 
-    <!-- login inicio -->
-    <article>
-        <div class="p-4 d-flex flex-column justify-content-center align-items-center">
-            <header class="py-4">
-                <p class="h5"> Para prosseguir, faça seu login </p>
-            </header>
-
-            <form class="w-100" method="post" enctype="multipart/form-data">
-                <div class="form-group mb-3">
-                    <label for="exampleInputEmail1"><i class="far fa-id-card"></i>&nbsp;CNPJ:</span></label>
-                    <input type="text" class="form-control" id="loginCnpj" aria-describedby="emailHelp" placeholder="Digite seu CNPJ" maxlength="18">
-                </div>
-
-                <div class="form-group mb-1">
-                    <label for="exampleInputPassword1"><span><i class="fas fa-lock"></i>&nbsp;Senha:</span></label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha">
-                </div>
-                <div class="form-group mb-3 d-flex align-items-end flex-column">
-                    <a href="" class="link-primary text-decoration-none">Esqueci a senha</a>
-                </div>
-
-                <div class="px-4">
-                    <center><button type="submit" style="background-color: #25b456;" class="btn btn-success">Entrar</button></center>
-                </div>
-
-            </form>
-            <!-- w-100 -->
-        </div>
-
-        <div class="col-12 text-center">
-            <div class="p-4">
-                <h2 class="h6 font-weight-bold"> Ainda não tem conta? </h2>
-                <button type="button" class="btn btn-outline-primary btn-lg w-100">Cadastre-se </button>
+    
+    <article class="login">
+        <div class="login_content">
+            <div class="p-4 d-flex flex-column justify-content-center align-items-center">
+                <header class="py-4">
+                    <p class="h5"> Para prosseguir, faça seu login </p>
+                </header>
+    
+                <form class="w-100" method="post" enctype="multipart/form-data">
+                    <div class="form-group mb-3">
+                        <label for="loginCnpj"><i class="far fa-id-card"></i>&nbsp;CNPJ:</span></label>
+                        <input type="text" class="form-control" id="loginCnpj" placeholder="Digite seu CNPJ" maxlength="18">
+                    </div>
+    
+                    <div class="form-group mb-1">
+                        <label for="password"><span><i class="fas fa-lock"></i>&nbsp;Senha:</span></label>
+                        <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                    </div>
+                    <div class="form-group mb-3 d-flex align-items-end flex-column">
+                        <a href="" class="link-primary text-decoration-none">Esqueci a senha</a>
+                    </div>
+    
+                    <div class="px-4">
+                        <button type="submit" style="background-color: #25b456;" class="btn btn-success w-100 btn-lg">Entrar</button>
+                    </div>
+    
+                </form>
+                <!-- w-100 -->
             </div>
-            <!-- p-4-->
-        </div>
-        <!-- text-center-->
-    </article>
-    <!-- login fim -->
+    
+            <div class="col-12 p-4 text-center">
+                <div class="px-4">
+                    <h2 class="h6 font-weight-bold"> Ainda não tem conta? </h2>
+                    <button type="button" class="btn btn-outline-primary btn-lg w-100">Cadastre-se </button>
+                </div> <!-- p-4--> 
+            </div><!-- text-center-->
+        </div><!--login_content-->
+        
+    </article><!-- login -->
+
 
     <!-- footer inicio -->
     <footer class="row no-gutters p-4 footer">
