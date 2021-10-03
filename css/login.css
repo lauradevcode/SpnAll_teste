@@ -1,4 +1,4 @@
-/**@import url(https://fonts.googleapis.com/css?family=Exo:100);*/
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
 
 * {
     margin: 0;
@@ -24,11 +24,12 @@
 
 
 /* ===== Botao cadastrar e login ===== */
-/*
+
 .myButton {
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     display: inline-block;
     border-radius: 10px;
+    border: 1px solid #ec77ab;
     cursor: pointer;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -57,135 +58,42 @@
 }
 
 
-/* ===== Fim do botao cadastrar e login ===== */
 
 
-/* ===== Inicio Fom ======*/
-/*
-.loginContainer h1,
-.loginContainer h2,
-.loginContainer h3,
-.loginContainer h4,
-.loginContainer h5,
-.loginContainer h6,
-.loginContainer a,
-.loginContainer p {
-    margin: 0;
-    padding: 0;
-    color: #000;
-    font-family: arial;
+/* ===== Responsividade ===== */
+
+@media (max-width: 800px) {
+    .myButton,
+    .dropdown-submenu {
+        margin-left: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .myButton:hover {
+        height: 60px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .dropdown-submenu {
+        width: 70px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .dropdown-item {
+        font-size: 7px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .navbar-nav {
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Poppins', sans-serif;
+    }
+    .show {
+        width: 30px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .logins {
+        display: none;
+        font-family: 'Poppins', sans-serif;
+    }
 }
-
-.loginbanner {
-    display: flex;
-    flex-direction: column;
-    padding: 40px 40px;
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-iphonex-phone-geometry-black-banner-image_171749.jpg");
-}
-
-.loginbanner h1 {
-    text-align: center;
-    color: white;
-}
-
-.loginContainer {
-    margin: 0 auto;
-    max-width: 500px;
-}
-
-.login-header {
-    color: #000;
-    text-align: left;
-    font-size: 18px;
-    margin-left: 40px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.login-form {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #949494;
-    border-radius: 10px;
-}
-
-.login-form h3 {
-    text-align: left;
-    margin-left: 40px;
-    font-size: 14px;
-    color: #656565;
-}
-
-.login-form {
-    box-sizing: border-box;
-    padding-top: 15px;
-    padding-bottom: 10%;
-    margin: 5% auto;
-    text-align: center;
-}
-
-.loginContainer input[type="text"],
-.loginContainer input[type="password"] {
-    max-width: 400px;
-    width: 80%;
-    line-height: 3em;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 1em 2em;
-    border-radius: 5px;
-    border: 1px solid gray;
-    outline: none;
-    padding-left: 10px;
-}
-
-.login-form input[type="button"] {
-    height: 30px;
-    width: 100px;
-    background: #fff;
-    border: 1px solid #949494;
-    border-radius: 5px;
-    color: #949494;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-
-.loginContainer .sign-up {
-    color: #00485B;
-    margin-left: -70%;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.loginContainer .no-access {
-    color: #00485B;
-    margin-left: -70%;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.loginContainer .loginHelp {
-    font-size: 12px;
-    text-align: left;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 20px;
-}
-
-.loginContainer .loginHelp span {
-    font-size: 14px;
-    font-weight: 700;
-    color: #003237;
-}
-
-.loginContainer a,
-.loginContainer a:visited,
-.loginContainer a:hover,
-.loginContainer a:active {
-    color: red;
-}
-
-
-/* ===== End Fom ======*/
 
 
 /* ===== FOOTER ===== */
@@ -197,7 +105,7 @@
 }
 
 .footer a {
-    color: white;
+    color: rgb(251, 11, 11);
     text-align: center;
     text-decoration: none;
     list-style: none;
@@ -211,6 +119,8 @@
     float: left;
     width: 100%;
     text-align: center;
+    border-top: purple;
+    border: 1px solid #ff5da5;
 }
 
 .colunasf {
@@ -305,15 +215,7 @@
 /* AlexandreSCorreia*/
 
 
-/*SM*/
 @media (min-width: 576px){
-
-
-}
-
-/*MD*/
-@media (min-width: 768px){
-
     .login{
         display: flex;
         justify-content: center;
@@ -323,10 +225,18 @@
     
     .login .login_content{
         width: 100%;
-        max-width: 450px;
+        max-width: 500px;
         text-align: left;
 
     }
+
+}
+
+@media (min-width: 768px){
+    .login .login_content{
+        max-width: 450px;
+    }
+  
 }
     
     

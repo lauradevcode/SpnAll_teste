@@ -21,28 +21,35 @@
     <!-- ==== font-awesome ==== -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <!-- ==== Bootstrap v5 ==== -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- ==== CSS ==== -->
     <link rel="stylesheet" href="../css/login.css">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg" style="background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);">
+    <nav class="navbar navbar-expand-lg navbar-light"
+        style="background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);">
         <div class="container-fluid">
-            <a class="navbar-brand flex-grow-1" href="../index.html">
-                <img src="../img/logoBranca.png" alt="" class="my-1 mx-2" width="80">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/navbar_brand.ico" style="background-color: white" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Inicio</a>
                     </li>
+
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Categorias
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -51,12 +58,22 @@
                             <li><a class="dropdown-item" href="#">Eletronica</a></li>
                         </ul>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Vender</a>
                     </li>
-                    <li class="logins nav-item">
 
+                    <li class="logins nav-item">
+                        <button class="myButton">
+                            <a href="login.html">Login</a>
+                        </button>
                     </li>
+                    <li class="logins nav-item">
+                        <button class="myButton">
+                            <a href="cadastro.html">Cadastro</a>
+                        </button>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -74,7 +91,8 @@
                 <form class="w-100" method="post" enctype="multipart/form-data">
                     <div class="form-group mb-3">
                         <label for="loginCnpj"><i class="far fa-id-card"></i>&nbsp;CNPJ:</span></label>
-                        <input type="text" class="form-control" id="loginCnpj" placeholder="Digite seu CNPJ" maxlength="18">
+                        <input type="text" class="form-control" id="loginCnpj" placeholder="Digite seu CNPJ"
+                            maxlength="18">
                     </div>
 
                     <div class="form-group mb-1">
@@ -86,7 +104,8 @@
                     </div>
 
                     <div class="px-4">
-                        <button type="submit" style="background-color: #25b456;" class="btn btn-success w-100 btn-lg">Entrar</button>
+                        <button type="submit" style="background-color: #25b456;"
+                            class="btn btn-success w-100 btn-lg">Entrar</button>
                     </div>
 
                 </form>
@@ -108,50 +127,68 @@
     <!-- login -->
 
 
-    <!-- footer inicio -->
-    <footer class="row no-gutters p-4 footer">
-        <div class="text-center p-4">
-            <article class="mb-4">
-                <h2 class="h5 py-2"><b>Sobre:</b></h2>
-                <p>
-                    O melhor e mais completo <strong>e-commerce Nacional</strong>. Os melhores fornecedores, voce encontra aqui!
-                </p>
-                <a title="Termos de uso" href="" class="text-primary font-weight-bold">Termos de uso</a>
-            </article>
-            <!-- mb-4 -->
-            <hr>
-            <article class="">
-                <h2 class="h5 py-2"><b>Contato:</b></h2>
-                <p><i class="fas fa-phone-alt">&nbsp;</i><b>Telefone:</b><br> +55 55 5555.5555</p>
-                <p><i class="fas fa-envelope"></i>&nbsp;<b>Email:</b><br> contato@spnall.com</p>
-                <p><i class="fas fa-map-marker-alt"></i>&nbsp;<b>Endereço:</b><br> São Paulo, SP/Brasil</p>
-            </article>
-        </div>
-        <!-- text-center -->
-        <hr>
-        <div class="sub-footer">
-            <div class="container py-lg-2">
-                <small class="d-block mb-3" style="color: #FFF; margin-top: 2%;">
-                    &copy; 2021 GUIA SP - Todos os direitos reservados
-                </small>
-                <!-- d-block -->
+
+    <!--FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="colunasf col-12 col-md">
+                    <h5>Guia SP</h5>
+                    <ul class="list-unstyled text-small">
+                        <li>
+                            O melhor e mais completo <strong>Guia comercial de São Paulo</strong>.
+                            <br>Comércio, Bares, Escolas e Eventos a um clique.<br>
+                            <a href="/anunciar" title="anuncie no portal de classificados">
+                                Anuncie no Nosso Guia
+                            </a>!<br>
+                            Sua marca aparecerá em destaque para mais de 500.000 usuários diariamente.
+                        </li>
+                    </ul>
+                </div>
+                <div class="colunasf col-12 col-md">
+                    <h5>Contatos</h5>
+                    <ul class="list-unstyled text-small">
+                        <li>
+                            <span><i class="fas fa-envelope"></i> Email :</span>
+                            <a href="mailto:contato@nossoguiasp.com.br" title="email do nosso guia sp"
+                                target="_system">contato@guiasp.com.br</a>
+                        </li>
+                        <li>
+                            <span><i class="fab fa-whatsapp-square"></i> Whatsapp :</span>
+                            <a href="https://api.whatsapp.com/send?phone=5513997599709&amp;text=Contato%20Nosso%20Guia"
+                                target="_system">(13)99759-9709</a>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-globe"></i> Website :</span>
+                            <a href="www.guiacomercialsp.com.br/"
+                                title="classificados gratuitos">www.guiacomercialsp.com.br</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <!-- container -->
         </div>
-        <!-- sub-footer -->
     </footer>
-    <!-- footer -->
-    <!-- footer fim -->
+    <!--FIM FOOTER-->
+    <div class="sub-footer">
+        <div class="container py-lg-2">
+            <small class="d-block mb-3" style="color: #FFF; margin-top: 2%;">&copy; 2021 GUIA SP - Todos os direitos
+                reservados</small>
+        </div>
+    </div>
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <!-- ==== Bootstrap v5 ==== -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
 
     <script>
         //https://pt.stackoverflow.com/questions/77505/formatar-mascara-para-cnpj
-        document.getElementById('loginCnpj').addEventListener('input', function(e) {
+        document.getElementById('loginCnpj').addEventListener('input', function (e) {
             var x = e.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0,3})(\d{0,3})(\d{0,4})(\d{0,2})/);
             e.target.value = !x[2] ? x[1] : x[1] + '.' + x[2] + '.' + x[3] + '/' + x[4] + (x[5] ? '-' + x[5] : '');
         });
