@@ -179,23 +179,6 @@
 }
 
 
-/*Media Querie*/
-
-@media only screen and (min-width: 150px) and (max-width: 530px) {
-    .login-form h3 {
-        text-align: center;
-        margin: 0;
-    }
-    .loginContainer .sign-up,
-    .loginContainer .no-access {
-        margin: 10px 0;
-    }
-    .loginContainer .login-button {
-        margin-bottom: 10px;
-    }
-}
-
-
 /* ===== End Fom ======*/
 
 
@@ -205,17 +188,17 @@
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     font-family: 'Poppins', sans-serif;
     color: white;
-
 }
 
 .footer a {
-    color: rgb(251, 11, 11);
+    color: white;
     text-align: center;
     text-decoration: none;
     list-style: none;
     width: 100%;
     height: 100%;
 }
+
 .sub-footer {
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     font-family: 'Poppins', sans-serif;
@@ -223,70 +206,88 @@
     width: 100%;
     text-align: center;
 }
+
 .colunasf {
     margin-top: 2%;
     width: 50%;
     height: 50%;
 }
 
+
 /* ===== Responsividade ===== */
 
-@media (max-width: 800px) {
-    .myButton,
-    .dropdown-submenu {
-        margin-left: 0px;
-        font-family: 'Poppins', sans-serif;
-    }
-    .myButton:hover {
-        height: 60px;
-        font-family: 'Poppins', sans-serif;
-    }
-    .dropdown-submenu {
-        width: 70px;
-        font-family: 'Poppins', sans-serif;
-    }
-    .dropdown-item {
-        font-size: 7px;
-        font-family: 'Poppins', sans-serif;
-    }
-    .navbar-nav {
-        align-items: center;
-        justify-content: space-around;
-        font-family: 'Poppins', sans-serif;
-    }
-    .show {
-        width: 30px;
-        font-family: 'Poppins', sans-serif;
-    }
-    .logins {
-        display: none;
-        font-family: 'Poppins', sans-serif;
-    }
-    .footer {
-        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
-        font-family: 'Poppins', sans-serif;
-        color: white;
 
-    }
+/* Galaxy S5 portrait and landscape */
 
-    .footer a {
-        color: rgb(251, 11, 11);
-        text-align: center;
-        text-decoration: none;
-        list-style: none;
-        width: 100%;
-        height: 100%;
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    footer {
+        max-width: 372px;
+        overflow-x: hidden;
     }
-    .sub-footer {
-        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
-        font-family: 'Poppins', sans-serif;
-        float: left;
-        width: 100%;
-        text-align: center;
+}
+
+
+/* Portrait */
+
+@media screen and (device-width: 412px) and (device-height: 823px) and (-webkit-device-pixel-ratio: 3.5) and (orientation: portrait) {
+    footer {
+        max-width: 490px;
+        overflow-x: hidden;
     }
-    .colunasf {
-        margin-top: 2%;
-        width: 50%;
-        height: 50%;
+}
+
+
+/* ----------- iPhone X ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    footer {
+        max-width: 387px;
+        overflow-x: hidden;
+    }
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    footer {
+        max-width: 387px;
+        overflow-x: hidden;
+    }
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    footer {
+        max-width: 426px;
+        overflow-x: hidden;
+    }
+}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    footer {
+        max-width: 426px;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+    footer {
+        max-width: 331px;
+        overflow-x: hidden;
     }
 }

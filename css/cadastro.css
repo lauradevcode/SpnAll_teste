@@ -57,23 +57,24 @@
     background-image: url("https://amplificadigital.com.br/wp-content/uploads/2020/02/amplifica_banner_blog_business.png");
 }
 
+
 /* ===== FOOTER ===== */
 
 .footer {
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     font-family: 'Poppins', sans-serif;
     color: white;
-
 }
 
 .footer a {
-    color: rgb(251, 11, 11);
+    color: white;
     text-align: center;
     text-decoration: none;
     list-style: none;
     width: 100%;
     height: 100%;
 }
+
 .sub-footer {
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     font-family: 'Poppins', sans-serif;
@@ -81,332 +82,90 @@
     width: 100%;
     text-align: center;
 }
+
 .colunasf {
     margin-top: 2%;
     width: 50%;
     height: 50%;
 }
+
+
 /* Registrar/Erika */
 
-.registerContainer h1,
-.registerContainer h2,
-.registerContainer h3,
-.registerContainer h4,
-.registerContainer h5,
-.registerContainer h6,
-.registerContainer a,
-.registerContainer p {
-    margin: 0;
-    padding: 0;
-    color: #000;
-    font-family: arial;
-    text-decoration: none;
-}
-
-.registerContainer {
-    width: 900px;
-    height: 750px;
-    margin: 0 auto;
-}
-
-.register-header {
-    color: #000;
-    text-align: left;
-    font-size: 18px;
-    margin-left: 40px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.dados-pessoa1,
-.dados-pessoa2 {
-    margin: 0 auto;
-}
-
-.registerContainer h1 {
-    text-align: center;
-}
-
-.register-form {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #fce1e1;
-    border-radius: 10px;
+.form-row {
+    width: 90%;
+    height: 90%;
     display: flex;
-}
-
-.register-form h3 {
-    text-align: left;
-    margin-left: 40px;
-    font-size: 14px;
-    color: #656565;
-}
-
-.register-form {
-    box-sizing: border-box;
-    padding-top: 40px;
-    padding-bottom: 10%;
-    margin: 5% auto;
-    text-align: center;
-}
-
-.registerContainer input[type="text"],
-.registerContainer input[type="password"] {
-    max-width: 400px;
-    width: 80%;
-    line-height: 3em;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 1em 2em;
-    border-radius: 5px;
-    border: 1px solid #949494;
-    outline: none;
-    padding-left: 10px;
-    display: block;
-}
-
-.register-form input[type="button"] {
-    height: 30px;
-    width: 100px;
-    background: #fff;
-    border: 1px solid #949494;
-    border-radius: 5px;
-    color: #949494;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-
-.btn-success {
-    margin-right: 320px;
-}
-
-.registerContainer .sign-up {
-    color: #00485B;
-    margin-left: -70%;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.registerContainer .no-access {
-    color: #00485B;
-    margin-left: -70%;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.registerContainer .loginHelp {
-    font-size: 12px;
-    text-align: left;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 20px;
-}
-
-.registerContainer .loginHelp span {
-    font-size: 14px;
-    font-weight: 700;
-    color: #003237;
-}
-
-.registerContainer a,
-.registerContainer a:visited,
-.registerContainer a:hover,
-.registerContainer a:active {
-    color: red;
-}
-
-.show {
-    width: 30px;
-    font-family: 'Poppins', sans-serif;
-}
-
-#formcadastro h1 {
-    text-align: center;
-}
-
-#cadastrar {
-    border: 5px solid black;
-}
-
-#bannercad {
-    padding: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
-/* media queries \*
+/* responsividade*/
 
-/* Smartphones (portrait and landscape) ----------- */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    .registerContainer {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .register-form {
-        display: block;
-        margin: 0 auto;
-        width: 100%;
-    }
-    /* ===== FOOTER ===== */
-
-    .footer {
-        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
-        font-family: 'Poppins', sans-serif;
-        color: white;
-
-    }
-
-    .footer a {
-        color: rgb(251, 11, 11);
-        text-align: center;
-        text-decoration: none;
-        list-style: none;
-        width: 100%;
-        height: 100%;
-    }
-    .sub-footer {
-        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
-        font-family: 'Poppins', sans-serif;
-        float: left;
-        width: 100%;
-        text-align: center;
-    }
-    .colunasf {
-        margin-top: 2%;
-        width: 50%;
-        height: 50%;
-    }
-    .navbar-light {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
-    #bannercad {
-        width: 100%;
-    }
-    .dados-pessoa1 {
-        width: 100%;
-    }
-    .dados-pessoa2 {
-        width: 100%;
-    }
-}
+/* Galaxy S5 portrait and landscape */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-    body {
-        width: 100%;
-    }
-    .registerContainer {
-        width: 100%;
-        margin: 0 auto;
-        justify-content: center;
-    }
-    .register-form {
-        display: inline-block;
-        margin: 0 auto;
-        justify-content: center;
-        overflow-x: hidden;
-    }
-    /* ===== FOOTER ===== */
-
-    .footer {
-        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
-        font-family: 'Poppins', sans-serif;
-        color: white;
-
-    }
-
-    .footer a {
-        color: rgb(251, 11, 11);
-        text-align: center;
-        text-decoration: none;
-        list-style: none;
-        width: 100%;
-        height: 100%;
-    }
-    .sub-footer {
-        background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
-        font-family: 'Poppins', sans-serif;
-        float: left;
-        width: 100%;
-        text-align: center;
-    }
-    .colunasf {
-        margin-top: 2%;
-        width: 50%;
-        height: 50%;
-    }
-    .navbar-light {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
-}
-
-
-/* Smartphones (portrait) ----------- */
-
-@media only screen and (max-width: 320px) {
-    /* STYLES GO HERE */
-}
-
-
-/* Desktops and laptops ----------- */
-
-@media only screen and (min-width: 1224px) {
-    /* STYLES GO HERE */
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-    body {
-        width: 100%;
-    }
-    .registerContainer {
-        width: 100%;
-        margin: 0 auto;
-        justify-content: center;
-    }
-    .register-form {
-        display: inline-block;
-        margin: 0 auto;
-        justify-content: center;
-        overflow-x: hidden;
-    }
     footer {
-        width: 100%;
-        margin-top: 350px;
-    }
-    .navbar-light {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
+        max-width: 372px;
+        overflow-x: hidden;
     }
 }
 
 
-/* Large screens ----------- */
+/* Portrait */
 
-@media only screen and (min-width: 1824px) {
-    /* STYLES GO HERE */
+@media screen and (device-width: 412px) and (device-height: 823px) and (-webkit-device-pixel-ratio: 3.5) and (orientation: portrait) {
+    footer {
+        max-width: 432px;
+        overflow-x: hidden;
+    }
 }
 
 
-/* iPhone 5 (portrait & landscape)----------- */
+/*Iphone 5 */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-    /* STYLES GO HERE */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+    footer {
+        max-width: 331px;
+        overflow-x: hidden;
+    }
 }
 
 
-/* iPhone 5 (landscape)----------- */
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
-    /* STYLES GO HERE */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    footer {
+        max-width: 426px;
+        overflow-x: hidden;
+    }
 }
 
 
-/* iPhone 5 (portrait)----------- */
+/* Portrait */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
-    /* STYLES GO HERE */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    footer {
+        max-width: 426px;
+        overflow-x: hidden;
+    }
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    footer {
+        max-width: 387px;
+        overflow-x: hidden;
+    }
 }
