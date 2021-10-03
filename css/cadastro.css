@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 
-    
+
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -106,6 +106,7 @@
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     font-family: 'Poppins', sans-serif;
     color: white;
+
 }
 
 .footer a {
@@ -120,17 +121,10 @@
 .sub-footer {
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     font-family: 'Poppins', sans-serif;
-    float: left;
     width: 100%;
     text-align: center;
     border-top: purple;
     border: 1px solid #ff5da5;
-}
-
-.colunasf {
-    margin-top: 2%;
-    width: 50%;
-    height: 50%;
 }
 
 
@@ -226,7 +220,7 @@
         align-items: center;
         text-align: center;
     }
-    
+
     .cadastro .cadastro_content{
         width: 100%;
         max-width: 500px;
@@ -238,30 +232,23 @@
 /*MD*/
 @media (min-width: 768px){
     .cadastro .cadastro_content{
-       
+
         max-width: 450px;
- 
+
 
     }
-   
+
 }
-    
-    
+
+
 @media (min-width: 992px){
-      
-   
+
+
 }
-    
-    
+
+
 @media (min-width: 1200px){
-    
 
-    
+
+
 }
-    
-
-
-
-
-
-    
