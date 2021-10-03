@@ -3,178 +3,224 @@
 
 <head>
     <meta charset="utf-8">
+    <!--Consulta de Midia-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - SPN ALL</title>
+    <!-- ==== font-awesome ==== -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!--JS/CSS Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!--css próprio-->
     <link rel="stylesheet" href="../css/cadastro.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <!-- Navbar -->
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light" style="background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);">
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg" style="background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);">
     <div class="container-fluid">
-
-        <a class="navbar-brand" href="../index.html">
-            <img src="../img/navbar_brand.ico" style="background-color: white" alt="">
+        <a class="navbar-brand flex-grow-1" href="../index.html">
+            <img src="../img/logoBranca.png" alt="" class="my-1 mx-2" width="80">
         </a>
-
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-
+  <span class="navbar-toggler-icon"></span>
+  </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
                 <li class="nav-item">
                     <a class="nav-link" href="#">Inicio</a>
                 </li>
-
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Categorias
-    </a>
+  Categorias
+  </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Tecnologias</a></li>
                         <li><a class="dropdown-item" href="#">Moda</a></li>
                         <li><a class="dropdown-item" href="#">Eletronica</a></li>
                     </ul>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="#">Vender</a>
                 </li>
-
                 <li class="logins nav-item">
 
                 </li>
-
             </ul>
         </div>
     </div>
 </nav>
 <!--FIM NAV-->
 
-<!--Section Banner-->
-<section id="bannercad">
-    <div id="bannercadastro">
+
+
+
+<!-- -Sugestão -->
+
+
+
+<article class="cadastro">
+    <div class="cadastro_content">
+        <div class="p-4 d-flex flex-column justify-content-center align-items-center">
+            <header class="py-4">
+                <p class="h5"> Criar uma conta é rápido, fácil e gratuito</p>
+                <small class="text-muted">Eleve sua marca, compre dos melhores fornecedores e muito mais</small>
+            </header>
+
+            <form class="w-100" method="post" enctype="multipart/form-data">
+                <div class="form-group  mb-3">
+                    <label for="exampleInputNomeSobrenome">Nome e sobrenome:</span></label>
+                    <input type="text" class="form-control" id="exampleInputNomeSobrenome" aria-describedby="nomeHelp" placeholder="Digite seu nome e sobrenome">
+                  </div>
+
+                  <div class="form-group  mb-3">
+                    <label for="exampleInputEmail1">E-mail:</span></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+                  </div>
+
+                <div class="form-group mb-3">
+                    <label for="loginCnpj">CNPJ:</span></label>
+                    <input type="text" class="form-control" id="loginCnpj" placeholder="Digite seu CNPJ"
+                        maxlength="18">
+                </div>
+
+                <div class="form-group  mb-3">
+                    <label for="password"><span>Senha:</span></label>
+                    <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                </div>
+
+                <div class="form-group form-check mb-4">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">concordo com os <a href="#" class="text-decoration-none">Termos e condições</a></label>
+                  </div>
+
+                <div class="px-4">
+                    <button type="submit" style="background-color: #25b456;"
+                        class="btn btn-success w-100 btn-lg">Criar conta</button>
+                </div>
+
+            </form> <!-- w-100 -->
+        </div>
+
+        <div class="col-12 p-4 text-center">
+            <div class="px-4">
+                <h2 class="h6 font-weight-bold">Já possui conta? </h2>
+                <button type="button" class="btn btn-outline-primary btn-lg w-100">Acessar sua conta</button>
+            </div> <!-- p-4-->
+        </div><!-- text-center-->
     </div>
-</section>
+    <!--login_content-->
+</article><!-- cadastro -->
 
 
+
+<!-- -Sugestão -->
+
+
+
+<!--Texto principal-->
 <center>
     <h4>Junte-se a SPN ALL. <br> Eleve sua marca, compre dos melhores fornecedores e muito mais!</h2>
     </h4>
 </center>
 <center><small>Seus dados ficarão seguros</small></center>
+<!--Fim texto principal-->
 
 <!--formulario-->
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <form>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label for="inputFirstname">Nome da Empresa</label>
+                        <input type="text" class="form-control" id="inputFirstname" placeholder="Nome da Empresa">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="inputLastname">CNPJ</label>
+                        <input type="text" class="form-control" id="inputLastname" placeholder="CNPJ">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label for="inputAddressLine1">Inscrição Estadual</label>
+                        <input type="text" class="form-control" id="inputAddressLine1" placeholder="Inscrição Estadual">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="inputAddressLine2">Telefone</label>
+                        <input type="text" class="form-control" id="inputAddressLine2" placeholder="Telefone">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label for="inputContactNumber">Inscrição Municipal</label>
+                        <input type="number" class="form-control" id="inputContactNumber" placeholder="Inscrição Municipal">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="inputWebsite">Principal Atividade</label>
+                        <input type="text" class="form-control" id="inputWebsite" placeholder="Principal atividade da Empresa">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label for="inputCity">Email</label>
+                        <input type="password" class="form-control" id="inputCity" placeholder="Email">
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="inputState">Senha</label>
+                        <input type="password" class="form-control" id="inputState" placeholder="Senha">
+                    </div>
 
-
-<form>
-
-    <div class="form-row">
-        <div class="col-md-4 mb-3">
-            <label for="validationServer01">Nome da Empresa</label>
-            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Nome da Empresa" required>
-            <div class="valid-feedback">
-                Muito bom! Agora gostaríamos de saber qual seu CNPJ
-            </div>
+                </div>
+                <div class="col-12 p-4 text-center">
+                    <div class="px-4">
+                        <button type="button" class="btn btn-primary btn-lg">Cadastrar</button>
+                    </div>
+                    <!-- p-4-->
+                </div>
+                <!-- text-center-->
         </div>
-        <div class="col-md-4 mb-3">
-            <label for="validationServer02">CNPJ</label>
-            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="CNPJ" required>
-            <div class="valid-feedback">
-                Certo! Agora a inscrição estadual, por favor. Para IE isenta, marque a caixa a seguir!
-            </div>
-            <input type="checkbox" id="ieisento" name="isento" value="Isento"><a>Isento</a>
-        </div>
-
-    </div>
-    </div>
-    </div>
-    <div class="form-row">
-        <div class="col-md-4 mb-3">
-            <label for="validationServer03">Inscrição Estadual</label>
-            <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="IE" required>
-            <div class="invalid-feedback">
-                Informe um número válido para sua Inscrição Estadual!
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <label for="validationServer04">Email</label>
-            <input type="email" class="form-control is-invalid" id="validationServer04" placeholder="Email" required>
-            <div class="invalid-feedback">
-                Por favor, informe um email válido! :)
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <label for="validationServer05">Senha</label>
-            <input type="password" class="form-control is-invalid" id="validationServer05" placeholder="Senha" required>
-            <div class="invalid-feedback">
-                Sua senha deve conter 8 caracteres!
-            </div>
-        </div>
-    </div>
-
-    <center><button class="btn btn-primary" type="submit">Cadastrar</button></center>
-</form>
-
-
-
-
-
-
-
-<!--FIM FORM-->
-
-<!--FOOTER -->
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="colunasf col-12 col-md">
-                <h5>Guia SP</h5>
-                <ul class="list-unstyled text-small">
-                    <li>
-                        O melhor e mais completo <strong>Guia comercial de São Paulo</strong>.
-                        <br>Comércio, Bares, Escolas e Eventos a um clique.<br>
-                        <a href="/anunciar" title="anuncie no portal de classificados">
-                    Anuncie no Nosso Guia
-                  </a>!<br> Sua marca aparecerá em destaque para mais de 500.000 usuários diariamente.
-                    </li>
-                </ul>
-            </div>
-            <div class="colunasf col-12 col-md">
-                <h5>Contatos</h5>
-                <ul class="list-unstyled text-small">
-                    <li>
-                        <span><i class="fas fa-envelope"></i> Email :</span>
-                        <a href="mailto:contato@nossoguiasp.com.br" title="email do nosso guia sp" target="_system">contato@guiasp.com.br</a>
-                    </li>
-                    <li>
-                        <span><i class="fab fa-whatsapp-square"></i> Whatsapp :</span>
-                        <a href="https://api.whatsapp.com/send?phone=5513997599709&amp;text=Contato%20Nosso%20Guia" target="_system">(13)99759-9709</a>
-                    </li>
-                    <li>
-                        <span><i class="fas fa-globe"></i> Website :</span>
-                        <a href="www.guiacomercialsp.com.br/" title="classificados gratuitos">www.guiacomercialsp.com.br</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </div>
-</footer>
-<!--FIM FOOTER-->
-<div class="sub-footer">
-    <div class="container py-lg-2">
-        <small class="d-block mb-3" style="color: #FFF; margin-top: 2%;">&copy; 2021 GUIA SP - Todos os direitos reservados</small>
+        </form>
     </div>
 </div>
-<!-- ==== Bootstrap v5 ==== -->
-<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</div>
+<!--FIM FORM-->
+
+<!-- footer inicio -->
+<footer class="row no-gutters p-4 footer">
+    <div class="text-center p-4">
+        <article class="mb-4">
+            <h2 class="h5 py-2"><b>Sobre:</b></h2>
+            <p>
+                O melhor e mais completo <strong>e-commerce Nacional</strong>. Os melhores fornecedores, voce encontra aqui!
+            </p>
+            <a title="Termos de uso" href="" class="text-primary font-weight-bold">Termos de uso</a>
+        </article>
+        <!-- mb-4 -->
+        <hr>
+        <article class="">
+            <h2 class="h5 py-2"><b>Contato:</b></h2>
+            <p><i class="fas fa-phone-alt">&nbsp;</i><b>Telefone:</b><br> +55 55 5555.5555</p>
+            <p><i class="fas fa-envelope"></i>&nbsp;<b>Email:</b><br> contato@spnall.com</p>
+            <p><i class="fas fa-map-marker-alt"></i>&nbsp;<b>Endereço:</b><br> São Paulo, SP/Brasil</p>
+        </article>
+    </div>
+    <!-- text-center -->
+    <hr>
+    <div class="sub-footer">
+        <div class="container py-lg-2">
+            <small class="d-block mb-3" style="color: #FFF; margin-top: 2%;">
+  &copy; 2021 GUIA SP - Todos os direitos reservados
+  </small>
+            <!-- d-block -->
+        </div>
+        <!-- container -->
+    </div>
+    <!-- sub-footer -->
+</footer>
+<!-- footer -->
+<!-- footer fim -->
+
 </body>
 
 </html>

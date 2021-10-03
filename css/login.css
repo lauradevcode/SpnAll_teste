@@ -1,7 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Exo:100);
+/**@import url(https://fonts.googleapis.com/css?family=Exo:100);*/
+
 * {
     margin: 0;
     padding: 0;
+
+    
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -18,7 +24,7 @@
 
 
 /* ===== Botao cadastrar e login ===== */
-
+/*
 .myButton {
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     display: inline-block;
@@ -55,7 +61,7 @@
 
 
 /* ===== Inicio Fom ======*/
-
+/*
 .loginContainer h1,
 .loginContainer h2,
 .loginContainer h3,
@@ -291,3 +297,48 @@
         overflow-x: hidden;
     }
 }
+
+
+
+
+
+/* AlexandreSCorreia*/
+
+
+/*SM*/
+@media (min-width: 576px){
+
+
+}
+
+/*MD*/
+@media (min-width: 768px){
+
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .login .login_content{
+        width: 100%;
+        max-width: 450px;
+        text-align: left;
+
+    }
+}
+    
+    
+@media (min-width: 992px){
+      
+   
+}
+    
+    
+@media (min-width: 1200px){
+    
+
+    
+}
+    
