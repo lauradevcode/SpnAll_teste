@@ -63,21 +63,40 @@
         </header>
 
         <form class="w-100" method="post" enctype="multipart/form-data">
+         <?php
+            if(isset($_POST['login']))
+            {
+              $cnpj = $_POST['cnpj'];
+              $password = $_POST['password'];
+
+              if($cnpj == '12.345.678/9123-45' && $password == '12345'){
+                echo '<script>location.href="poslogincomprador.html"</script>';
+                die();
+              }else{
+                  echo '<div class="alert alert-danger" role="alert">
+                          Tente novamente mais tarde NOOB!!
+                        </div>';
+              }
+                       
+            }
+          
+         ?>
+         
           <div class="form-group mb-3">
             <label for="loginCnpj"><i class="far fa-id-card"></i>&nbsp;CNPJ:</span></label>
-            <input type="text" class="form-control" id="loginCnpj" placeholder="Digite seu CNPJ" maxlength="18">
+            <input type="text" class="form-control" name="cnpj" id="loginCnpj" placeholder="Digite seu CNPJ" maxlength="18">
           </div>
 
           <div class="form-group mb-1">
             <label for="password"><span><i class="fas fa-lock"></i>&nbsp;Senha:</span></label>
-            <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+            <input type="password" name="password" class="form-control" id="password" placeholder="Digite sua senha">
           </div>
           <div class="form-group mb-3 d-flex align-items-end flex-column">
             <a href="" class="link-primary text-decoration-none">Esqueci a senha</a>
           </div>
 
           <div class="px-4">
-            <button type="submit" style="background-color: #25b456;" class="btn btn-success w-100 btn-lg"><a href="poslogincomprador.html">Entrar</a></button>
+            <button type="submit" name="login" style="background-color: #25b456;" class="btn btn-success w-100 btn-lg">Entrar</button>
           </div>
 
         </form>
