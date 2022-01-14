@@ -62,25 +62,8 @@
           <p class="h5"> Para prosseguir, faça seu login </p>
         </header>
 
-        <form class="w-100" method="post" enctype="multipart/form-data">
-         <?php
-            if(isset($_POST['login']))
-            {
-              $cnpj = $_POST['cnpj'];
-              $password = $_POST['password'];
-
-              if($cnpj == '12.345.678/9123-45' && $password == '12345'){
-                echo '<script>location.href="poslogincomprador.html"</script>';
-                die();
-              }else{
-                  echo '<div class="alert alert-danger" role="alert">
-                          Tente novamente mais tarde NOOB!!
-                        </div>';
-              }
-                       
-            }
-          
-         ?>
+        <form class="w-100" method="post" action="http://localhost/SpnAll_teste/php/login.php" enctype="multipart/form-data">
+        
          
           <div class="form-group mb-3">
             <label for="loginCnpj"><i class="far fa-id-card"></i>&nbsp;CNPJ:</span></label>
